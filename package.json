@@ -1,0 +1,14 @@
+{
+  "name": "city-wuxing",
+  "version": "0.1.0",
+  "description": "全球城市五行属性数据库 — Five Elements classification for cities worldwide",
+  "main": "index.ts",
+  "types": "index.ts",
+  "keywords": ["wuxing", "五行", "bazi", "八字", "city", "travel", "fengshui", "chinese-astrology"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/你的用户名/city-wuxing"
+  },
+  "files": ["index.ts", "data/cities.json"]
+}
