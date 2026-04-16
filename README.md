@@ -115,7 +115,3 @@ GET https://city-wuxing.vercel.app/api/match?need=金,水&limit=5
 ## License
 
 MIT
-
-## 关联项目
-
-- [命途旅行](https://github.com/你的用户名/bazi-travel) — 基于本数据库的旅行人格测试产品

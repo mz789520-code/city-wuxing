@@ -1,101 +1,4314 @@
 [
-  {"name":"成都","name_en":"Chengdu","country":"CN","region":"西南","primary_element":"木","secondary_element":"土","lat":30.57,"lng":104.07,"basis":"盆地沃土，茶文化慢生活，科技创新氛围","experiences":["茶馆闲坐","熊猫基地","宽窄巷子"],"tags":["慢生活","美食","自然"]},
-  {"name":"杭州","name_en":"Hangzhou","country":"CN","region":"华东","primary_element":"木","secondary_element":"水","lat":30.27,"lng":120.15,"basis":"西湖山水，互联网创新之城，诗意栖居","experiences":["西湖泛舟","龙井问茶","灵隐寺"],"tags":["山水","文艺","科技"]},
-  {"name":"昆明","name_en":"Kunming","country":"CN","region":"西南","primary_element":"木","secondary_element":"火","lat":25.04,"lng":102.71,"basis":"春城四季如春，植被丰富，多民族文化交融","experiences":["翠湖喂鸥","石林地质奇观","斗南花市"],"tags":["四季春","鲜花","民族"]},
-  {"name":"桂林","name_en":"Guilin","country":"CN","region":"华南","primary_element":"木","secondary_element":"水","lat":25.27,"lng":110.29,"basis":"喀斯特山水甲天下，自然生态完好","experiences":["漓江竹筏","阳朔骑行","龙脊梯田"],"tags":["山水","田园","慢游"]},
-  {"name":"苏州","name_en":"Suzhou","country":"CN","region":"华东","primary_element":"木","secondary_element":"金","lat":31.30,"lng":120.59,"basis":"园林之城，精致与自然融合，制造业强市","experiences":["拙政园","平江路","苏州博物馆"],"tags":["园林","文化","精致"]},
-  {"name":"丽江","name_en":"Lijiang","country":"CN","region":"西南","primary_element":"木","secondary_element":"水","lat":26.87,"lng":100.23,"basis":"纳西文化，雪山脚下，古城慢时光","experiences":["古城漫步","玉龙雪山","束河古镇"],"tags":["古城","雪山","民族"]},
-  {"name":"贵阳","name_en":"Guiyang","country":"CN","region":"西南","primary_element":"木","secondary_element":"土","lat":26.65,"lng":106.63,"basis":"林城绿意盎然，避暑之都，大数据产业","experiences":["黔灵山","甲秀楼","酸汤鱼"],"tags":["避暑","绿色","美食"]},
-  {"name":"京都","name_en":"Kyoto","country":"JP","region":"日本","primary_element":"木","secondary_element":"金","lat":35.01,"lng":135.77,"basis":"千年古都，自然与人文完美融合，匠人精神","experiences":["岚山竹林","金阁寺","茶道体验"],"tags":["古都","寺庙","匠心"]},
-  {"name":"清迈","name_en":"Chiang Mai","country":"TH","region":"东南亚","primary_element":"木","secondary_element":"火","lat":18.79,"lng":98.98,"basis":"泰北玫瑰，寺庙遍布，慢生活与灵修氛围","experiences":["古城寺庙巡礼","冥想课程","周末夜市"],"tags":["灵修","慢生活","手工"]},
-  {"name":"温哥华","name_en":"Vancouver","country":"CA","region":"北美","primary_element":"木","secondary_element":"水","lat":49.28,"lng":-123.12,"basis":"被自然包围的城市，森林公园，环保先锋","experiences":["斯坦利公园","格兰维尔岛","卡皮拉诺吊桥"],"tags":["自然","宜居","多元"]},
-  {"name":"巴厘岛乌布","name_en":"Ubud, Bali","country":"ID","region":"东南亚","primary_element":"木","secondary_element":"火","lat":-8.51,"lng":115.26,"basis":"梯田瑜伽，灵性中心，艺术家聚落","experiences":["德格拉朗梯田","猴林漫步","瑜伽课程"],"tags":["灵性","瑜伽","艺术"]},
-  {"name":"波特兰","name_en":"Portland","country":"US","region":"北美","primary_element":"木","secondary_element":"水","lat":45.52,"lng":-122.67,"basis":"Keep Portland Weird，独立文化，绿色城市","experiences":["鲍威尔书店","手工啤酒","哥伦比亚峡谷"],"tags":["独立","绿色","咖啡"]},
-
-  {"name":"曼谷","name_en":"Bangkok","country":"TH","region":"东南亚","primary_element":"火","secondary_element":"金","lat":13.76,"lng":100.50,"basis":"天使之城，永不停歇的热带活力，庙宇与商场共存","experiences":["大皇宫","水上市场","考山路夜生活"],"tags":["热情","美食","寺庙"]},
-  {"name":"重庆","name_en":"Chongqing","country":"CN","region":"西南","primary_element":"火","secondary_element":"土","lat":29.43,"lng":106.91,"basis":"山城火锅，热烈直爽的江湖气，8D魔幻地形","experiences":["洪崖洞夜景","火锅盛宴","长江索道"],"tags":["火锅","夜景","魔幻"]},
-  {"name":"长沙","name_en":"Changsha","country":"CN","region":"华中","primary_element":"火","secondary_element":"木","lat":28.23,"lng":112.94,"basis":"星城不夜，年轻人的狂欢之都，娱乐之都","experiences":["橘子洲头","茶颜悦色","解放西路"],"tags":["夜生活","网红","青春"]},
-  {"name":"广州","name_en":"Guangzhou","country":"CN","region":"华南","primary_element":"火","secondary_element":"水","lat":23.13,"lng":113.26,"basis":"千年商都，早茶文化，烟火气与商业并存","experiences":["早茶","北京路","珠江夜游"],"tags":["美食","商业","烟火"]},
-  {"name":"深圳","name_en":"Shenzhen","country":"CN","region":"华南","primary_element":"火","secondary_element":"金","lat":22.54,"lng":114.06,"basis":"创新之城，速度与激情，从渔村到一线的火焰传奇","experiences":["华强北","深圳湾","南山科技园"],"tags":["创新","速度","科技"]},
-  {"name":"伊斯坦布尔","name_en":"Istanbul","country":"TR","region":"中东","primary_element":"火","secondary_element":"水","lat":41.01,"lng":28.98,"basis":"东西交汇，文明碰撞的火花之城","experiences":["蓝色清真寺","大巴扎","博斯普鲁斯游船"],"tags":["文明","交汇","壮丽"]},
-  {"name":"那不勒斯","name_en":"Naples","country":"IT","region":"欧洲","primary_element":"火","secondary_element":"土","lat":40.85,"lng":14.27,"basis":"维苏威火山脚下，热情奔放，披萨发源地","experiences":["庞贝古城","披萨朝圣","地下那不勒斯"],"tags":["火山","热情","美食"]},
-  {"name":"里约热内卢","name_en":"Rio de Janeiro","country":"BR","region":"南美","primary_element":"火","secondary_element":"水","lat":-22.91,"lng":-43.17,"basis":"桑巴与狂欢，基督山俯瞰，热带激情","experiences":["基督像","科帕卡巴纳海滩","桑巴舞"],"tags":["狂欢","海滩","热情"]},
-  {"name":"首尔","name_en":"Seoul","country":"KR","region":"韩国","primary_element":"火","secondary_element":"金","lat":37.57,"lng":126.98,"basis":"K-POP与韩流中心，夜生活丰富，竞争激烈","experiences":["明洞","北村韩屋","弘大夜生活"],"tags":["潮流","夜生活","美食"]},
-  {"name":"墨西哥城","name_en":"Mexico City","country":"MX","region":"北美","primary_element":"火","secondary_element":"土","lat":19.43,"lng":-99.13,"basis":"阿兹特克遗址上建起的活力之城，色彩斑斓","experiences":["弗里达故居","特奥蒂瓦坎","塔科美食"],"tags":["文化","色彩","历史"]},
-
-  {"name":"西安","name_en":"Xi'an","country":"CN","region":"西北","primary_element":"土","secondary_element":"金","lat":34.26,"lng":108.94,"basis":"十三朝古都，大地的厚重与包容","experiences":["兵马俑","城墙骑行","回民街"],"tags":["古都","历史","美食"]},
-  {"name":"北京","name_en":"Beijing","country":"CN","region":"华北","primary_element":"土","secondary_element":"木","lat":39.90,"lng":116.40,"basis":"千年帝都，大气磅礴的中华气象","experiences":["故宫漫步","胡同探访","长城日出"],"tags":["帝都","文化","大气"]},
-  {"name":"敦煌","name_en":"Dunhuang","country":"CN","region":"西北","primary_element":"土","secondary_element":"火","lat":40.14,"lng":94.66,"basis":"丝路明珠，千年文明的沉淀之地","experiences":["莫高窟壁画","鸣沙山月牙泉","沙漠露营"],"tags":["丝路","壁画","沙漠"]},
-  {"name":"拉萨","name_en":"Lhasa","country":"CN","region":"西藏","primary_element":"土","secondary_element":"金","lat":29.65,"lng":91.11,"basis":"日光之城，离天最近的朝圣之地","experiences":["布达拉宫","大昭寺转经","纳木错"],"tags":["朝圣","高原","信仰"]},
-  {"name":"洛阳","name_en":"Luoyang","country":"CN","region":"华中","primary_element":"土","secondary_element":"木","lat":34.62,"lng":112.45,"basis":"十三朝古都，牡丹之城，龙门石窟","experiences":["龙门石窟","洛阳牡丹","白马寺"],"tags":["古都","石窟","牡丹"]},
-  {"name":"开封","name_en":"Kaifeng","country":"CN","region":"华中","primary_element":"土","secondary_element":"水","lat":34.80,"lng":114.31,"basis":"八朝古都，清明上河图的原型","experiences":["清明上河园","铁塔","开封夜市"],"tags":["古都","夜市","宋文化"]},
-  {"name":"奈良","name_en":"Nara","country":"JP","region":"日本","primary_element":"土","secondary_element":"木","lat":34.69,"lng":135.80,"basis":"古都奈良，时间静止的疗愈之地","experiences":["东大寺","小鹿公园","春日大社"],"tags":["古朴","小鹿","疗愈"]},
-  {"name":"开罗","name_en":"Cairo","country":"EG","region":"中东","primary_element":"土","secondary_element":"火","lat":30.04,"lng":31.24,"basis":"金字塔脚下的千年古城，沙漠文明","experiences":["吉萨金字塔","尼罗河游船","汗哈利利市场"],"tags":["金字塔","沙漠","文明"]},
-  {"name":"罗马","name_en":"Rome","country":"IT","region":"欧洲","primary_element":"土","secondary_element":"火","lat":41.90,"lng":12.50,"basis":"永恒之城，层叠的历史，每一步都是废墟上的重生","experiences":["斗兽场","梵蒂冈","许愿池"],"tags":["永恒","废墟","艺术"]},
-  {"name":"雅典","name_en":"Athens","country":"GR","region":"欧洲","primary_element":"土","secondary_element":"火","lat":37.98,"lng":23.73,"basis":"西方文明摇篮，帕特农神庙，哲学的故乡","experiences":["卫城","宪法广场","普拉卡老城"],"tags":["文明","哲学","历史"]},
-  {"name":"库斯科","name_en":"Cusco","country":"PE","region":"南美","primary_element":"土","secondary_element":"金","lat":-13.53,"lng":-71.97,"basis":"印加帝国古都，高原之城，马丘比丘门户","experiences":["马丘比丘","太阳神庙","圣谷"],"tags":["印加","高原","遗址"]},
-  {"name":"布拉格","name_en":"Prague","country":"CZ","region":"欧洲","primary_element":"土","secondary_element":"金","lat":50.08,"lng":14.44,"basis":"百塔之城，中世纪建筑保存完好，厚重典雅","experiences":["查理大桥","布拉格城堡","老城广场"],"tags":["中世纪","建筑","浪漫"]},
-
-  {"name":"上海","name_en":"Shanghai","country":"CN","region":"华东","primary_element":"金","secondary_element":"水","lat":31.23,"lng":121.47,"basis":"金融之都，秩序与效率的极致表达","experiences":["外滩夜景","精致下午茶","艺术展览"],"tags":["金融","摩登","精致"]},
-  {"name":"香港","name_en":"Hong Kong","country":"CN","region":"港澳","primary_element":"金","secondary_element":"火","lat":22.32,"lng":114.17,"basis":"东方之珠，商业活力与传统并存","experiences":["维多利亚港","庙街","太平山顶"],"tags":["商业","中西","夜景"]},
-  {"name":"新加坡","name_en":"Singapore","country":"SG","region":"东南亚","primary_element":"金","secondary_element":"木","lat":1.35,"lng":103.82,"basis":"花园城市，极致的规划与秩序","experiences":["滨海湾花园","牛车水","小贩中心"],"tags":["规划","花园","多元"]},
-  {"name":"东京","name_en":"Tokyo","country":"JP","region":"日本","primary_element":"金","secondary_element":"火","lat":35.68,"lng":139.69,"basis":"秩序与效率的极致，科技之都，精致到骨子里","experiences":["浅草寺","涩谷十字路口","筑地美食"],"tags":["秩序","科技","精致"]},
-  {"name":"大阪","name_en":"Osaka","country":"JP","region":"日本","primary_element":"金","secondary_element":"火","lat":34.69,"lng":135.50,"basis":"天下厨房，商人之城，务实热情","experiences":["道顿堀","大阪城","黑门市场"],"tags":["美食","热情","商人"]},
-  {"name":"台北","name_en":"Taipei","country":"TW","region":"台湾","primary_element":"金","secondary_element":"木","lat":25.03,"lng":121.57,"basis":"精致生活美学，夜市文化，科技与人文并重","experiences":["故宫博物院","九份老街","夜市巡礼"],"tags":["文化","夜市","精致"]},
-  {"name":"苏黎世","name_en":"Zurich","country":"CH","region":"欧洲","primary_element":"金","secondary_element":"水","lat":47.38,"lng":8.54,"basis":"全球金融中心，钟表之都，精确与品质","experiences":["班霍夫大街","苏黎世湖","老城漫步"],"tags":["金融","精密","品质"]},
-  {"name":"迪拜","name_en":"Dubai","country":"AE","region":"中东","primary_element":"金","secondary_element":"火","lat":25.20,"lng":55.27,"basis":"沙漠中的黄金之城，极致奢华与野心","experiences":["哈利法塔","黄金市场","沙漠冲沙"],"tags":["奢华","野心","极致"]},
-  {"name":"纽约","name_en":"New York","country":"US","region":"北美","primary_element":"金","secondary_element":"火","lat":40.71,"lng":-74.01,"basis":"世界之都，华尔街金融，百老汇艺术，永不停歇","experiences":["中央公园","大都会博物馆","时代广场"],"tags":["金融","艺术","不夜城"]},
-  {"name":"伦敦","name_en":"London","country":"GB","region":"欧洲","primary_element":"金","secondary_element":"水","lat":51.51,"lng":-0.13,"basis":"金融城与皇室传统，秩序与历史的交织","experiences":["大英博物馆","泰晤士河","诺丁山"],"tags":["金融","皇室","戏剧"]},
-  {"name":"首尔江南","name_en":"Gangnam, Seoul","country":"KR","region":"韩国","primary_element":"金","secondary_element":"火","lat":37.50,"lng":127.04,"basis":"韩国财富与时尚中心，整形美容产业，精致消费","experiences":["COEX商场","狎鸥亭","清潭洞"],"tags":["时尚","消费","精致"]},
-
-  {"name":"厦门","name_en":"Xiamen","country":"CN","region":"华南","primary_element":"水","secondary_element":"木","lat":24.48,"lng":118.09,"basis":"海上花园，温润如玉的海滨城市","experiences":["鼓浪屿","沙坡尾咖啡","环岛骑行"],"tags":["海岛","文艺","温润"]},
-  {"name":"大理","name_en":"Dali","country":"CN","region":"西南","primary_element":"水","secondary_element":"土","lat":25.59,"lng":100.23,"basis":"风花雪月，洱海边的诗意远方","experiences":["洱海骑行","古城发呆","苍山徒步"],"tags":["洱海","诗意","数字游民"]},
-  {"name":"三亚","name_en":"Sanya","country":"CN","region":"华南","primary_element":"水","secondary_element":"火","lat":18.25,"lng":109.50,"basis":"中国最南端热带海滨，碧海蓝天","experiences":["亚龙湾","天涯海角","蜈支洲岛"],"tags":["热带","海滩","度假"]},
-  {"name":"青岛","name_en":"Qingdao","country":"CN","region":"华东","primary_element":"水","secondary_element":"金","lat":36.07,"lng":120.38,"basis":"红瓦绿树碧海蓝天，啤酒之城","experiences":["栈桥","八大关","啤酒博物馆"],"tags":["海滨","啤酒","欧式"]},
-  {"name":"威海","name_en":"Weihai","country":"CN","region":"华东","primary_element":"水","secondary_element":"木","lat":37.51,"lng":122.12,"basis":"最适合人类居住的城市之一，碧海银滩","experiences":["刘公岛","国际海水浴场","成山头"],"tags":["宜居","海滨","清净"]},
-  {"name":"巴厘岛","name_en":"Bali","country":"ID","region":"东南亚","primary_element":"水","secondary_element":"火","lat":-8.34,"lng":115.09,"basis":"众神之岛，灵性疗愈的圣地","experiences":["海神庙日落","乌鲁瓦图","水明漾冲浪"],"tags":["灵性","冲浪","日落"]},
-  {"name":"济州岛","name_en":"Jeju","country":"KR","region":"韩国","primary_element":"水","secondary_element":"土","lat":33.49,"lng":126.53,"basis":"火山海岛，大自然的疗愈力量","experiences":["汉拿山","海女文化","柑橘园"],"tags":["火山","海岛","疗愈"]},
-  {"name":"马尔代夫","name_en":"Maldives","country":"MV","region":"南亚","primary_element":"水","secondary_element":"火","lat":3.20,"lng":73.22,"basis":"印度洋上的珍珠，纯净海水的极致","experiences":["水屋日落","浮潜","海底餐厅"],"tags":["海岛","奢华","纯净"]},
-  {"name":"冰岛","name_en":"Iceland","country":"IS","region":"欧洲","primary_element":"水","secondary_element":"火","lat":64.15,"lng":-21.94,"basis":"冰与火之地，极光瀑布温泉，地球的尽头","experiences":["蓝湖温泉","极光","黄金圈"],"tags":["极光","温泉","极致"]},
-  {"name":"威尼斯","name_en":"Venice","country":"IT","region":"欧洲","primary_element":"水","secondary_element":"金","lat":45.44,"lng":12.32,"basis":"水上之城，千年沉浮，浪漫与忧郁并存","experiences":["贡多拉","圣马可广场","彩色岛"],"tags":["水城","浪漫","艺术"]},
-  {"name":"悉尼","name_en":"Sydney","country":"AU","region":"大洋洲","primary_element":"水","secondary_element":"金","lat":-33.87,"lng":151.21,"basis":"海港之城，歌剧院与海滩的完美组合","experiences":["歌剧院","邦迪海滩","蓝山"],"tags":["海港","活力","阳光"]},
-  {"name":"巴塞罗那","name_en":"Barcelona","country":"ES","region":"欧洲","primary_element":"水","secondary_element":"火","lat":41.39,"lng":2.17,"basis":"地中海明珠，高迪的奇幻与海滩的自由","experiences":["圣家堂","兰布拉大街","巴塞罗内塔海滩"],"tags":["艺术","海滩","自由"]},
-  {"name":"里斯本","name_en":"Lisbon","country":"PT","region":"欧洲","primary_element":"水","secondary_element":"土","lat":38.72,"lng":-9.14,"basis":"七丘之城，大航海起点，忧郁与温暖共存","experiences":["贝伦塔","阿尔法玛老城","蛋挞朝圣"],"tags":["大航海","怀旧","温暖"]},
-
-  {"name":"武汉","name_en":"Wuhan","country":"CN","region":"华中","primary_element":"水","secondary_element":"火","lat":30.59,"lng":114.31,"basis":"九省通衢，长江与汉江交汇，过早文化","experiences":["黄鹤楼","户部巷","东湖绿道"],"tags":["江城","过早","大学城"]},
-  {"name":"南京","name_en":"Nanjing","country":"CN","region":"华东","primary_element":"土","secondary_element":"木","lat":32.06,"lng":118.80,"basis":"六朝古都，秦淮河畔，厚重与文雅并存","experiences":["中山陵","夫子庙","先锋书店"],"tags":["古都","文脉","梧桐"]},
-  {"name":"天津","name_en":"Tianjin","country":"CN","region":"华北","primary_element":"水","secondary_element":"土","lat":39.13,"lng":117.20,"basis":"九河下梢，相声之城，中西合璧的万国建筑","experiences":["五大道","天津之眼","煎饼果子"],"tags":["相声","洋楼","美食"]},
-  {"name":"哈尔滨","name_en":"Harbin","country":"CN","region":"东北","primary_element":"水","secondary_element":"金","lat":45.75,"lng":126.65,"basis":"冰城，北国风光，俄式建筑，冰雪大世界","experiences":["冰雪大世界","中央大街","索菲亚教堂"],"tags":["冰雪","俄式","豪爽"]},
-  {"name":"大连","name_en":"Dalian","country":"CN","region":"东北","primary_element":"水","secondary_element":"金","lat":38.91,"lng":121.60,"basis":"北方明珠，海滨城市，广场之城","experiences":["星海广场","老虎滩","东港"],"tags":["海滨","广场","浪漫"]},
-  {"name":"福州","name_en":"Fuzhou","country":"CN","region":"华南","primary_element":"木","secondary_element":"水","lat":26.07,"lng":119.30,"basis":"有福之州，温泉之都，榕树成荫","experiences":["三坊七巷","鼓山","温泉体验"],"tags":["温泉","榕树","闽菜"]},
-  {"name":"长春","name_en":"Changchun","country":"CN","region":"东北","primary_element":"木","secondary_element":"水","lat":43.88,"lng":125.32,"basis":"北国春城，汽车城，森林覆盖率高","experiences":["净月潭","伪满皇宫","长影世纪城"],"tags":["森林","电影","汽车"]},
-  {"name":"西宁","name_en":"Xining","country":"CN","region":"西北","primary_element":"土","secondary_element":"水","lat":36.62,"lng":101.78,"basis":"高原古城，青海湖门户，多民族交汇","experiences":["青海湖","塔尔寺","莫家街"],"tags":["高原","湖泊","多民族"]},
-  {"name":"兰州","name_en":"Lanzhou","country":"CN","region":"西北","primary_element":"土","secondary_element":"金","lat":36.06,"lng":103.83,"basis":"黄河穿城而过，丝路重镇，牛肉面之都","experiences":["中山桥","黄河母亲","牛肉面朝圣"],"tags":["黄河","丝路","面食"]},
-  {"name":"呼和浩特","name_en":"Hohhot","country":"CN","region":"华北","primary_element":"土","secondary_element":"木","lat":40.84,"lng":111.75,"basis":"青色的城，草原门户，蒙古文化","experiences":["大召寺","敕勒川草原","蒙古包体验"],"tags":["草原","蒙古","奶茶"]},
-
-  {"name":"珠海","name_en":"Zhuhai","country":"CN","region":"华南","primary_element":"水","secondary_element":"金","lat":22.27,"lng":113.58,"basis":"浪漫之城，海滨花园，宜居典范","experiences":["情侣路","长隆海洋王国","外伶仃岛"],"tags":["浪漫","海滨","宜居"]},
-  {"name":"泉州","name_en":"Quanzhou","country":"CN","region":"华南","primary_element":"火","secondary_element":"土","lat":24.87,"lng":118.68,"basis":"海上丝路起点，多元宗教共存，烟火气浓","experiences":["开元寺","西街","关帝庙"],"tags":["海丝","宗教","闽南"]},
-  {"name":"沈阳","name_en":"Shenyang","country":"CN","region":"东北","primary_element":"金","secondary_element":"土","lat":41.80,"lng":123.43,"basis":"一朝发祥地，重工业之城，故宫所在","experiences":["沈阳故宫","中街","老边饺子"],"tags":["皇城","工业","东北菜"]},
-  {"name":"郑州","name_en":"Zhengzhou","country":"CN","region":"华中","primary_element":"土","secondary_element":"火","lat":34.75,"lng":113.65,"basis":"天地之中，交通枢纽，商城遗址","experiences":["少林寺","黄河风景区","烩面"],"tags":["中原","少林","枢纽"]},
-  {"name":"太原","name_en":"Taiyuan","country":"CN","region":"华北","primary_element":"土","secondary_element":"金","lat":37.87,"lng":112.55,"basis":"龙城宝地，晋商故里，醋都面乡","experiences":["晋祠","双塔寺","柳巷"],"tags":["晋商","醋","面食"]},
-
-  {"name":"河内","name_en":"Hanoi","country":"VN","region":"东南亚","primary_element":"木","secondary_element":"水","lat":21.03,"lng":105.85,"basis":"千年古城，法式殖民建筑与越南传统交融","experiences":["还剑湖","三十六行街","河粉早餐"],"tags":["古城","法式","河粉"]},
-  {"name":"吉隆坡","name_en":"Kuala Lumpur","country":"MY","region":"东南亚","primary_element":"火","secondary_element":"金","lat":3.14,"lng":101.69,"basis":"双子塔之城，多元文化熔炉","experiences":["双子塔","黑风洞","茨厂街"],"tags":["多元","美食","现代"]},
-  {"name":"胡志明市","name_en":"Ho Chi Minh City","country":"VN","region":"东南亚","primary_element":"火","secondary_element":"水","lat":10.82,"lng":106.63,"basis":"东方小巴黎，摩托车洪流，活力四射","experiences":["统一宫","范五老街","咖啡公寓"],"tags":["活力","咖啡","摩托"]},
-  {"name":"万象","name_en":"Vientiane","country":"LA","region":"东南亚","primary_element":"土","secondary_element":"木","lat":17.97,"lng":102.63,"basis":"湄公河畔最安静的首都，佛教文化深厚","experiences":["塔銮","湄公河日落","法式面包"],"tags":["安静","佛教","慢"]},
-
-  {"name":"巴黎","name_en":"Paris","country":"FR","region":"欧洲","primary_element":"金","secondary_element":"火","lat":48.86,"lng":2.35,"basis":"光之城，时尚与艺术之都，精致生活的定义者","experiences":["卢浮宫","塞纳河","蒙马特"],"tags":["时尚","艺术","浪漫"]},
-  {"name":"维也纳","name_en":"Vienna","country":"AT","region":"欧洲","primary_element":"金","secondary_element":"土","lat":48.21,"lng":16.37,"basis":"音乐之都，哈布斯堡皇朝的优雅遗产","experiences":["美泉宫","金色大厅","咖啡馆文化"],"tags":["音乐","宫殿","咖啡"]},
-  {"name":"阿姆斯特丹","name_en":"Amsterdam","country":"NL","region":"欧洲","primary_element":"水","secondary_element":"木","lat":52.37,"lng":4.90,"basis":"运河之城，自由开放，创意之都","experiences":["运河游船","梵高博物馆","约旦区"],"tags":["运河","自由","创意"]},
-  {"name":"哥本哈根","name_en":"Copenhagen","country":"DK","region":"欧洲","primary_element":"水","secondary_element":"金","lat":55.68,"lng":12.57,"basis":"北欧设计之都，幸福指数最高，骑行文化","experiences":["新港","小美人鱼","Tivoli乐园"],"tags":["设计","幸福","骑行"]},
-  {"name":"爱丁堡","name_en":"Edinburgh","country":"GB","region":"欧洲","primary_element":"土","secondary_element":"水","lat":55.95,"lng":-3.19,"basis":"苏格兰古都，哈利波特灵感之城，厚重神秘","experiences":["爱丁堡城堡","皇家英里","亚瑟王座"],"tags":["古堡","文学","神秘"]},
-
-  {"name":"旧金山","name_en":"San Francisco","country":"US","region":"北美","primary_element":"金","secondary_element":"水","lat":37.77,"lng":-122.42,"basis":"科技创新中心，金门大桥，多元包容","experiences":["金门大桥","渔人码头","硅谷参访"],"tags":["科技","多元","海湾"]},
-  {"name":"洛杉矶","name_en":"Los Angeles","country":"US","region":"北美","primary_element":"火","secondary_element":"金","lat":34.05,"lng":-118.24,"basis":"天使之城，好莱坞娱乐之都，阳光与梦想","experiences":["好莱坞","圣莫尼卡海滩","格里菲斯天文台"],"tags":["娱乐","阳光","梦想"]},
-  {"name":"多伦多","name_en":"Toronto","country":"CA","region":"北美","primary_element":"金","secondary_element":"水","lat":43.65,"lng":-79.38,"basis":"加拿大金融中心，多元文化之都","experiences":["CN塔","肯辛顿市场","尼亚加拉"],"tags":["多元","金融","宜居"]},
-
-  {"name":"乌镇","name_en":"Wuzhen","country":"CN","region":"华东","primary_element":"水","secondary_element":"木","lat":30.74,"lng":120.49,"basis":"枕水人家，千年水乡，互联网大会举办地","experiences":["西栅夜景","乌篷船","蓝印花布"],"tags":["水乡","古镇","诗意"]},
-  {"name":"凤凰古城","name_en":"Fenghuang","country":"CN","region":"华中","primary_element":"水","secondary_element":"土","lat":27.95,"lng":109.60,"basis":"沈从文笔下的边城，沱江畔的苗族风情","experiences":["沱江泛舟","吊脚楼","苗族银饰"],"tags":["边城","苗族","怀旧"]},
-  {"name":"张家界","name_en":"Zhangjiajie","country":"CN","region":"华中","primary_element":"木","secondary_element":"土","lat":29.12,"lng":110.48,"basis":"阿凡达取景地，砂岩峰林，原始森林","experiences":["天门山","玻璃桥","金鞭溪"],"tags":["奇峰","森林","探险"]},
-  {"name":"九寨沟","name_en":"Jiuzhaigou","country":"CN","region":"西南","primary_element":"水","secondary_element":"木","lat":33.26,"lng":103.92,"basis":"人间仙境，五彩池海子，藏族文化","experiences":["五花海","诺日朗瀑布","藏寨体验"],"tags":["仙境","彩池","藏族"]}
+  {
+    "name": "成都",
+    "name_en": "Chengdu",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "木",
+    "secondary_element": "土",
+    "lat": 30.57,
+    "lng": 104.07,
+    "basis": "盆地沃土，茶文化慢生活，科技创新氛围",
+    "experiences": [
+      "茶馆闲坐",
+      "熊猫基地",
+      "宽窄巷子"
+    ],
+    "tags": [
+      "慢生活",
+      "美食",
+      "自然"
+    ],
+    "vibe": "竹椅上的盖碗茶还冒着热气，隔壁桌大爷已经睡着了。火锅的热烈教你什么是活着，茶馆的慵懒教你什么叫放下。"
+  },
+  {
+    "name": "杭州",
+    "name_en": "Hangzhou",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 30.27,
+    "lng": 120.15,
+    "basis": "西湖山水，互联网创新之城，诗意栖居",
+    "experiences": [
+      "西湖泛舟",
+      "龙井问茶",
+      "灵隐寺"
+    ],
+    "tags": [
+      "山水",
+      "文艺",
+      "科技"
+    ],
+    "vibe": "断桥上的雪化了一半，西湖的水绿到像翡翠碎了一地。龙井村的茶农递过来的第一杯茶，比任何诗都清澈。"
+  },
+  {
+    "name": "昆明",
+    "name_en": "Kunming",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "木",
+    "secondary_element": "火",
+    "lat": 25.04,
+    "lng": 102.71,
+    "basis": "春城四季如春，植被丰富，多民族文化交融",
+    "experiences": [
+      "翠湖喂鸥",
+      "石林地质奇观",
+      "斗南花市"
+    ],
+    "tags": [
+      "四季春",
+      "鲜花",
+      "民族"
+    ],
+    "vibe": "翠湖的红嘴鸥冬天从西伯利亚飞来赴约，斗南的鲜花论斤卖。四季如春不是形容词，是这座城市的出厂设置。"
+  },
+  {
+    "name": "桂林",
+    "name_en": "Guilin",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 25.27,
+    "lng": 110.29,
+    "basis": "喀斯特山水甲天下，自然生态完好",
+    "experiences": [
+      "漓江竹筏",
+      "阳朔骑行",
+      "龙脊梯田"
+    ],
+    "tags": [
+      "山水",
+      "田园",
+      "慢游"
+    ],
+    "vibe": "漓江的山水是国画还没干就被挂在了天地间，竹筏上的船夫哼的歌和水声混在一起分不清。阳朔的月亮山看你的角度比你看它更好。"
+  },
+  {
+    "name": "苏州",
+    "name_en": "Suzhou",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "木",
+    "secondary_element": "金",
+    "lat": 31.3,
+    "lng": 120.59,
+    "basis": "园林之城，精致与自然融合，制造业强市",
+    "experiences": [
+      "拙政园",
+      "平江路",
+      "苏州博物馆"
+    ],
+    "tags": [
+      "园林",
+      "文化",
+      "精致"
+    ],
+    "vibe": "拙政园的窗框把每棵树都裁成一幅画，平江路的桨声从明朝划到现在。这座城市精致到连巷子里的猫都会摆造型。"
+  },
+  {
+    "name": "丽江",
+    "name_en": "Lijiang",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 26.87,
+    "lng": 100.23,
+    "basis": "纳西文化，雪山脚下，古城慢时光",
+    "experiences": [
+      "古城漫步",
+      "玉龙雪山",
+      "束河古镇"
+    ],
+    "tags": [
+      "古城",
+      "雪山",
+      "民族"
+    ],
+    "vibe": "古城的石板路被脚步打磨得发亮，雪山在巷子尽头露出半张脸。纳西老奶奶的东巴文你看不懂，但她的笑你看得懂。"
+  },
+  {
+    "name": "贵阳",
+    "name_en": "Guiyang",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "木",
+    "secondary_element": "土",
+    "lat": 26.65,
+    "lng": 106.63,
+    "basis": "林城绿意盎然，避暑之都，大数据产业",
+    "experiences": [
+      "黔灵山",
+      "甲秀楼",
+      "酸汤鱼"
+    ],
+    "tags": [
+      "避暑",
+      "绿色",
+      "美食"
+    ],
+    "vibe": "酸汤鱼的酸从鼻腔直冲天灵盖，黔灵山的猴子比你更懂享受。这座城市把避暑做成了一种生活态度。"
+  },
+  {
+    "name": "京都",
+    "name_en": "Kyoto",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "木",
+    "secondary_element": "金",
+    "lat": 35.01,
+    "lng": 135.77,
+    "basis": "千年古都，自然与人文完美融合，匠人精神",
+    "experiences": [
+      "岚山竹林",
+      "金阁寺",
+      "茶道体验"
+    ],
+    "tags": [
+      "古都",
+      "寺庙",
+      "匠心"
+    ],
+    "vibe": "岚山的竹林筛出来的光是抹茶色的，金阁寺的倒影比本体更金。艺伎的木屐声踩在花见小路上，那是京都在呼吸。"
+  },
+  {
+    "name": "清迈",
+    "name_en": "Chiang Mai",
+    "country": "TH",
+    "region": "东南亚",
+    "primary_element": "木",
+    "secondary_element": "火",
+    "lat": 18.79,
+    "lng": 98.98,
+    "basis": "泰北玫瑰，寺庙遍布，慢生活与灵修氛围",
+    "experiences": [
+      "古城寺庙巡礼",
+      "冥想课程",
+      "周末夜市"
+    ],
+    "tags": [
+      "灵修",
+      "慢生活",
+      "手工"
+    ],
+    "vibe": "素贴山的双龙寺钟声能穿透整个雨季，宁曼路的咖啡馆里坐着全世界的数字游民。这里慢到连WiFi都比别处慢半拍。"
+  },
+  {
+    "name": "温哥华",
+    "name_en": "Vancouver",
+    "country": "CA",
+    "region": "北美",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 49.28,
+    "lng": -123.12,
+    "basis": "被自然包围的城市，森林公园，环保先锋",
+    "experiences": [
+      "斯坦利公园",
+      "格兰维尔岛",
+      "卡皮拉诺吊桥"
+    ],
+    "tags": [
+      "自然",
+      "宜居",
+      "多元"
+    ],
+    "vibe": "斯坦利公园的红杉比你家楼高三倍，从格兰维尔岛看对岸的雪山像在看邻居家的围墙。这座城市被自然宠坏了。"
+  },
+  {
+    "name": "巴厘岛乌布",
+    "name_en": "Ubud, Bali",
+    "country": "ID",
+    "region": "东南亚",
+    "primary_element": "木",
+    "secondary_element": "火",
+    "lat": -8.51,
+    "lng": 115.26,
+    "basis": "梯田瑜伽，灵性中心，艺术家聚落",
+    "experiences": [
+      "德格拉朗梯田",
+      "猴林漫步",
+      "瑜伽课程"
+    ],
+    "tags": [
+      "灵性",
+      "瑜伽",
+      "艺术"
+    ],
+    "vibe": "德格拉朗梯田的绿一层叠一层像地球的指纹，猴林里的猴子比瑜伽老师更放松。乌布把灵性做成了一门手艺。"
+  },
+  {
+    "name": "波特兰",
+    "name_en": "Portland",
+    "country": "US",
+    "region": "北美",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 45.52,
+    "lng": -122.67,
+    "basis": "Keep Portland Weird，独立文化，绿色城市",
+    "experiences": [
+      "鲍威尔书店",
+      "手工啤酒",
+      "哥伦比亚峡谷"
+    ],
+    "tags": [
+      "独立",
+      "绿色",
+      "咖啡"
+    ],
+    "vibe": "鲍威尔书店大到需要地图，每个街角都有一个纹身和胡子的咖啡师在拉花。这座城市把怪当成正常。"
+  },
+  {
+    "name": "曼谷",
+    "name_en": "Bangkok",
+    "country": "TH",
+    "region": "东南亚",
+    "primary_element": "火",
+    "secondary_element": "金",
+    "lat": 13.76,
+    "lng": 100.5,
+    "basis": "天使之城，永不停歇的热带活力，庙宇与商场共存",
+    "experiences": [
+      "大皇宫",
+      "水上市场",
+      "考山路夜生活"
+    ],
+    "tags": [
+      "热情",
+      "美食",
+      "寺庙"
+    ],
+    "vibe": "大皇宫的金顶在三十八度的空气里闪得人睁不开眼，考山路的电音从黄昏轰到天亮。路边摊的芒果糯米饭甜到你忘了流汗。"
+  },
+  {
+    "name": "重庆",
+    "name_en": "Chongqing",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 29.43,
+    "lng": 106.91,
+    "basis": "山城火锅，热烈直爽的江湖气，8D魔幻地形",
+    "experiences": [
+      "洪崖洞夜景",
+      "火锅盛宴",
+      "长江索道"
+    ],
+    "tags": [
+      "火锅",
+      "夜景",
+      "魔幻"
+    ],
+    "vibe": "轻轨穿楼而过连本地人都要拍照，火锅的油碟里藏着重庆人的全部温柔。洪崖洞的夜景像千与千寻照进现实。"
+  },
+  {
+    "name": "长沙",
+    "name_en": "Changsha",
+    "country": "CN",
+    "region": "华中",
+    "primary_element": "火",
+    "secondary_element": "木",
+    "lat": 28.23,
+    "lng": 112.94,
+    "basis": "星城不夜，年轻人的狂欢之都，娱乐之都",
+    "experiences": [
+      "橘子洲头",
+      "茶颜悦色",
+      "解放西路"
+    ],
+    "tags": [
+      "夜生活",
+      "网红",
+      "青春"
+    ],
+    "vibe": "茶颜悦色排队的长度就是长沙的热度，橘子洲头的毛主席看了几十年湘江还没看够。凌晨两点的解放西路比白天更清醒。"
+  },
+  {
+    "name": "广州",
+    "name_en": "Guangzhou",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "火",
+    "secondary_element": "水",
+    "lat": 23.13,
+    "lng": 113.26,
+    "basis": "千年商都，早茶文化，烟火气与商业并存",
+    "experiences": [
+      "早茶",
+      "北京路",
+      "珠江夜游"
+    ],
+    "tags": [
+      "美食",
+      "商业",
+      "烟火"
+    ],
+    "vibe": "早茶的虾饺皮薄到能看见虾的表情，北京路脚下两千年的路面叠了十一层。这座城市用烟火气打败了所有网红。"
+  },
+  {
+    "name": "深圳",
+    "name_en": "Shenzhen",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "火",
+    "secondary_element": "金",
+    "lat": 22.54,
+    "lng": 114.06,
+    "basis": "创新之城，速度与激情，从渔村到一线的火焰传奇",
+    "experiences": [
+      "华强北",
+      "深圳湾",
+      "南山科技园"
+    ],
+    "tags": [
+      "创新",
+      "速度",
+      "科技"
+    ],
+    "vibe": "华强北的电子元件比沙子还多，南山的程序员下楼就能看海。四十年从渔村变一线，这座城市跑得比你的deadline还快。"
+  },
+  {
+    "name": "伊斯坦布尔",
+    "name_en": "Istanbul",
+    "country": "TR",
+    "region": "中东",
+    "primary_element": "火",
+    "secondary_element": "水",
+    "lat": 41.01,
+    "lng": 28.98,
+    "basis": "东西交汇，文明碰撞的火花之城",
+    "experiences": [
+      "蓝色清真寺",
+      "大巴扎",
+      "博斯普鲁斯游船"
+    ],
+    "tags": [
+      "文明",
+      "交汇",
+      "壮丽"
+    ],
+    "vibe": "蓝色清真寺的穹顶让人不自觉仰头和闭嘴，大巴扎的地毯商人能用五种语言夸你好看。博斯普鲁斯海峡两岸，一边是欧洲一边是亚洲。"
+  },
+  {
+    "name": "那不勒斯",
+    "name_en": "Naples",
+    "country": "IT",
+    "region": "欧洲",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 40.85,
+    "lng": 14.27,
+    "basis": "维苏威火山脚下，热情奔放，披萨发源地",
+    "experiences": [
+      "庞贝古城",
+      "披萨朝圣",
+      "地下那不勒斯"
+    ],
+    "tags": [
+      "火山",
+      "热情",
+      "美食"
+    ],
+    "vibe": "从城堡看下去维苏威火山安静得像在装睡，窄巷里晾的衣服比旗帜还多。拿坡里披萨的边缘焦到冒泡的那一刻，你原谅了这座城市所有的乱。"
+  },
+  {
+    "name": "里约热内卢",
+    "name_en": "Rio de Janeiro",
+    "country": "BR",
+    "region": "南美",
+    "primary_element": "火",
+    "secondary_element": "水",
+    "lat": -22.91,
+    "lng": -43.17,
+    "basis": "桑巴与狂欢，基督山俯瞰，热带激情",
+    "experiences": [
+      "基督像",
+      "科帕卡巴纳海滩",
+      "桑巴舞"
+    ],
+    "tags": [
+      "狂欢",
+      "海滩",
+      "热情"
+    ],
+    "vibe": "基督像张开的双臂够不到科帕卡巴纳的尽头，贫民窟和五星酒店共享同一片日落。桑巴的鼓点能让任何僵硬的腰开始摆。"
+  },
+  {
+    "name": "首尔",
+    "name_en": "Seoul",
+    "country": "KR",
+    "region": "韩国",
+    "primary_element": "火",
+    "secondary_element": "金",
+    "lat": 37.57,
+    "lng": 126.98,
+    "basis": "K-POP与韩流中心，夜生活丰富，竞争激烈",
+    "experiences": [
+      "明洞",
+      "北村韩屋",
+      "弘大夜生活"
+    ],
+    "tags": [
+      "潮流",
+      "夜生活",
+      "美食"
+    ],
+    "vibe": "明洞的霓虹比东京还密，北村的韩屋安静到能听见自己心跳。烧酒配烤肉的深夜，首尔会让你觉得孤独也是一种浪漫。"
+  },
+  {
+    "name": "墨西哥城",
+    "name_en": "Mexico City",
+    "country": "MX",
+    "region": "北美",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 19.43,
+    "lng": -99.13,
+    "basis": "阿兹特克遗址上建起的活力之城，色彩斑斓",
+    "experiences": [
+      "弗里达故居",
+      "特奥蒂瓦坎",
+      "塔科美食"
+    ],
+    "tags": [
+      "文化",
+      "色彩",
+      "历史"
+    ],
+    "vibe": "弗里达故居的蓝墙关住了一整个宇宙，特奥蒂瓦坎的月亮金字塔在正午没有影子。塔可摊的辣酱桶永远是满的。"
+  },
+  {
+    "name": "西安",
+    "name_en": "Xi'an",
+    "country": "CN",
+    "region": "西北",
+    "primary_element": "土",
+    "secondary_element": "金",
+    "lat": 34.26,
+    "lng": 108.94,
+    "basis": "十三朝古都，大地的厚重与包容",
+    "experiences": [
+      "兵马俑",
+      "城墙骑行",
+      "回民街"
+    ],
+    "tags": [
+      "古都",
+      "历史",
+      "美食"
+    ],
+    "vibe": "城墙上骑一圈要两小时，脚下的砖有的比你家族谱还老。兵马俑的沉默比任何解说都有说服力，回民街的肉夹馍比教科书更能代表西安。"
+  },
+  {
+    "name": "北京",
+    "name_en": "Beijing",
+    "country": "CN",
+    "region": "华北",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 39.9,
+    "lng": 116.4,
+    "basis": "千年帝都，大气磅礴的中华气象",
+    "experiences": [
+      "故宫漫步",
+      "胡同探访",
+      "长城日出"
+    ],
+    "tags": [
+      "帝都",
+      "文化",
+      "大气"
+    ],
+    "vibe": "故宫的红墙在雪天美到国家地理来了都得排队，胡同口的豆汁儿臭到只有北京人才懂的香。这座城市大到能装下所有野心。"
+  },
+  {
+    "name": "敦煌",
+    "name_en": "Dunhuang",
+    "country": "CN",
+    "region": "西北",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 40.14,
+    "lng": 94.66,
+    "basis": "丝路明珠，千年文明的沉淀之地",
+    "experiences": [
+      "莫高窟壁画",
+      "鸣沙山月牙泉",
+      "沙漠露营"
+    ],
+    "tags": [
+      "丝路",
+      "壁画",
+      "沙漠"
+    ],
+    "vibe": "莫高窟的飞天画了一千年还在飞，鸣沙山的沙子滑下去时真的会唱歌。月牙泉在沙漠里像一只不肯闭上的眼睛。"
+  },
+  {
+    "name": "拉萨",
+    "name_en": "Lhasa",
+    "country": "CN",
+    "region": "西藏",
+    "primary_element": "土",
+    "secondary_element": "金",
+    "lat": 29.65,
+    "lng": 91.11,
+    "basis": "日光之城，离天最近的朝圣之地",
+    "experiences": [
+      "布达拉宫",
+      "大昭寺转经",
+      "纳木错"
+    ],
+    "tags": [
+      "朝圣",
+      "高原",
+      "信仰"
+    ],
+    "vibe": "海拔3650米的阳光有重量，打在布达拉宫金顶上碎成一千片。转经筒转了一千年，替你把心里堵的东西也转开了。"
+  },
+  {
+    "name": "洛阳",
+    "name_en": "Luoyang",
+    "country": "CN",
+    "region": "华中",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 34.62,
+    "lng": 112.45,
+    "basis": "十三朝古都，牡丹之城，龙门石窟",
+    "experiences": [
+      "龙门石窟",
+      "洛阳牡丹",
+      "白马寺"
+    ],
+    "tags": [
+      "古都",
+      "石窟",
+      "牡丹"
+    ],
+    "vibe": "龙门石窟的佛像用石头做的微笑看了你一千五百年，牡丹花开的那半个月整座城市都在赏花。白马寺的晨钟声里有佛教东传的第一声回响。"
+  },
+  {
+    "name": "开封",
+    "name_en": "Kaifeng",
+    "country": "CN",
+    "region": "华中",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 34.8,
+    "lng": 114.31,
+    "basis": "八朝古都，清明上河图的原型",
+    "experiences": [
+      "清明上河园",
+      "铁塔",
+      "开封夜市"
+    ],
+    "tags": [
+      "古都",
+      "夜市",
+      "宋文化"
+    ],
+    "vibe": "清明上河园把张择端的画变成了真的，灌汤包一口咬下去汤比包子先到。铁塔在夕阳里站成黄金色，站了九百年。"
+  },
+  {
+    "name": "奈良",
+    "name_en": "Nara",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 34.69,
+    "lng": 135.8,
+    "basis": "古都奈良，时间静止的疗愈之地",
+    "experiences": [
+      "东大寺",
+      "小鹿公园",
+      "春日大社"
+    ],
+    "tags": [
+      "古朴",
+      "小鹿",
+      "疗愈"
+    ],
+    "vibe": "小鹿在你口袋里找鹿饼干的鼻子是湿的，东大寺的大佛大到让你重新理解什么叫渺小。这座古都安静到走路都想放轻。"
+  },
+  {
+    "name": "开罗",
+    "name_en": "Cairo",
+    "country": "EG",
+    "region": "中东",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 30.04,
+    "lng": 31.24,
+    "basis": "金字塔脚下的千年古城，沙漠文明",
+    "experiences": [
+      "吉萨金字塔",
+      "尼罗河游船",
+      "汗哈利利市场"
+    ],
+    "tags": [
+      "金字塔",
+      "沙漠",
+      "文明"
+    ],
+    "vibe": "金字塔尖上的石头在四千五百年前就想好了今天的位置，尼罗河的水把法老的故事冲到了你面前。哈利利市场的铜灯在暗处亮得像一千零一夜。"
+  },
+  {
+    "name": "罗马",
+    "name_en": "Rome",
+    "country": "IT",
+    "region": "欧洲",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 41.9,
+    "lng": 12.5,
+    "basis": "永恒之城，层叠的历史，每一步都是废墟上的重生",
+    "experiences": [
+      "斗兽场",
+      "梵蒂冈",
+      "许愿池"
+    ],
+    "tags": [
+      "永恒",
+      "废墟",
+      "艺术"
+    ],
+    "vibe": "斗兽场的每个拱门都框住一片天空和两千年前的呐喊声，许愿池的硬币沉到底还在替人许愿。这座城市用废墟当地基。"
+  },
+  {
+    "name": "雅典",
+    "name_en": "Athens",
+    "country": "GR",
+    "region": "欧洲",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 37.98,
+    "lng": 23.73,
+    "basis": "西方文明摇篮，帕特农神庙，哲学的故乡",
+    "experiences": [
+      "卫城",
+      "宪法广场",
+      "普拉卡老城"
+    ],
+    "tags": [
+      "文明",
+      "哲学",
+      "历史"
+    ],
+    "vibe": "帕特农神庙的柱子在日落时变成蜂蜜色，卫城脚下的普拉卡老城烤肉味直冲山顶。苏格拉底喝毒酒的地方现在有人在喝咖啡。"
+  },
+  {
+    "name": "库斯科",
+    "name_en": "Cusco",
+    "country": "PE",
+    "region": "南美",
+    "primary_element": "土",
+    "secondary_element": "金",
+    "lat": -13.53,
+    "lng": -71.97,
+    "basis": "印加帝国古都，高原之城，马丘比丘门户",
+    "experiences": [
+      "马丘比丘",
+      "太阳神庙",
+      "圣谷"
+    ],
+    "tags": [
+      "印加",
+      "高原",
+      "遗址"
+    ],
+    "vibe": "海拔3400米的空气稀薄到呼吸像在偷氧气，太阳神庙的石墙严丝合缝不用一滴砂浆。印加人不用文字但用石头写了一部史诗。"
+  },
+  {
+    "name": "布拉格",
+    "name_en": "Prague",
+    "country": "CZ",
+    "region": "欧洲",
+    "primary_element": "土",
+    "secondary_element": "金",
+    "lat": 50.08,
+    "lng": 14.44,
+    "basis": "百塔之城，中世纪建筑保存完好，厚重典雅",
+    "experiences": [
+      "查理大桥",
+      "布拉格城堡",
+      "老城广场"
+    ],
+    "tags": [
+      "中世纪",
+      "建筑",
+      "浪漫"
+    ],
+    "vibe": "查理大桥的雕像在晨雾里像从中世纪穿越来的路人，老城广场的天文钟整点敲响时所有人一起仰头。卡夫卡在这些巷子里迷了一辈子路。"
+  },
+  {
+    "name": "上海",
+    "name_en": "Shanghai",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "金",
+    "secondary_element": "水",
+    "lat": 31.23,
+    "lng": 121.47,
+    "basis": "金融之都，秩序与效率的极致表达",
+    "experiences": [
+      "外滩夜景",
+      "精致下午茶",
+      "艺术展览"
+    ],
+    "tags": [
+      "金融",
+      "摩登",
+      "精致"
+    ],
+    "vibe": "外滩的万国建筑群在黄浦江里晃成一片碎金，弄堂里的阿姨用上海话骂小孩比交响乐有节奏。这座城市的精致是骨子里的。"
+  },
+  {
+    "name": "香港",
+    "name_en": "Hong Kong",
+    "country": "CN",
+    "region": "港澳",
+    "primary_element": "金",
+    "secondary_element": "火",
+    "lat": 22.32,
+    "lng": 114.17,
+    "basis": "东方之珠，商业活力与传统并存",
+    "experiences": [
+      "维多利亚港",
+      "庙街",
+      "太平山顶"
+    ],
+    "tags": [
+      "商业",
+      "中西",
+      "夜景"
+    ],
+    "vibe": "叮叮车从铜锣湾一路叮到上环，车窗外的招牌密到像在读一面文字墙。太平山顶俯瞰的夜景让人理解什么叫寸土寸金。"
+  },
+  {
+    "name": "新加坡",
+    "name_en": "Singapore",
+    "country": "SG",
+    "region": "东南亚",
+    "primary_element": "金",
+    "secondary_element": "木",
+    "lat": 1.35,
+    "lng": 103.82,
+    "basis": "花园城市，极致的规划与秩序",
+    "experiences": [
+      "滨海湾花园",
+      "牛车水",
+      "小贩中心"
+    ],
+    "tags": [
+      "规划",
+      "花园",
+      "多元"
+    ],
+    "vibe": "滨海湾的灯光秀把科幻照进现实，牛车水的鸡饭和金沙酒店的鸡尾酒说的是同一个新加坡。这个国家小到你能在一天内看完，精到你一周看不够。"
+  },
+  {
+    "name": "东京",
+    "name_en": "Tokyo",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "金",
+    "secondary_element": "火",
+    "lat": 35.68,
+    "lng": 139.69,
+    "basis": "秩序与效率的极致，科技之都，精致到骨子里",
+    "experiences": [
+      "浅草寺",
+      "涩谷十字路口",
+      "筑地美食"
+    ],
+    "tags": [
+      "秩序",
+      "科技",
+      "精致"
+    ],
+    "vibe": "涩谷十字路口的人潮散开又聚合像在做呼吸，浅草寺的香火和秋叶原的电流声共享一座城。这里把秩序做成了一种美学。"
+  },
+  {
+    "name": "大阪",
+    "name_en": "Osaka",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "金",
+    "secondary_element": "火",
+    "lat": 34.69,
+    "lng": 135.5,
+    "basis": "天下厨房，商人之城，务实热情",
+    "experiences": [
+      "道顿堀",
+      "大阪城",
+      "黑门市场"
+    ],
+    "tags": [
+      "美食",
+      "热情",
+      "商人"
+    ],
+    "vibe": "道顿堀的跑步人招牌五十年没换过笑容，黑门市场的海胆鲜到筷子抖。大阪人砍价的样子比东京人的鞠躬更有人情味。"
+  },
+  {
+    "name": "台北",
+    "name_en": "Taipei",
+    "country": "TW",
+    "region": "台湾",
+    "primary_element": "金",
+    "secondary_element": "木",
+    "lat": 25.03,
+    "lng": 121.57,
+    "basis": "精致生活美学，夜市文化，科技与人文并重",
+    "experiences": [
+      "故宫博物院",
+      "九份老街",
+      "夜市巡礼"
+    ],
+    "tags": [
+      "文化",
+      "夜市",
+      "精致"
+    ],
+    "vibe": "永康街的芒果冰化得比你吃得快，故宫的翠玉白菜比真的还水灵。九份的石阶在雨天油亮亮的像走进了宫崎骏的画板。"
+  },
+  {
+    "name": "苏黎世",
+    "name_en": "Zurich",
+    "country": "CH",
+    "region": "欧洲",
+    "primary_element": "金",
+    "secondary_element": "水",
+    "lat": 47.38,
+    "lng": 8.54,
+    "basis": "全球金融中心，钟表之都，精确与品质",
+    "experiences": [
+      "班霍夫大街",
+      "苏黎世湖",
+      "老城漫步"
+    ],
+    "tags": [
+      "金融",
+      "精密",
+      "品质"
+    ],
+    "vibe": "班霍夫大街的钟表店比星巴克还多，苏黎世湖的天鹅优雅到像有人付它工资。这座城市把有钱过成了一种低调的日常。"
+  },
+  {
+    "name": "迪拜",
+    "name_en": "Dubai",
+    "country": "AE",
+    "region": "中东",
+    "primary_element": "金",
+    "secondary_element": "火",
+    "lat": 25.2,
+    "lng": 55.27,
+    "basis": "沙漠中的黄金之城，极致奢华与野心",
+    "experiences": [
+      "哈利法塔",
+      "黄金市场",
+      "沙漠冲沙"
+    ],
+    "tags": [
+      "奢华",
+      "野心",
+      "极致"
+    ],
+    "vibe": "哈利法塔刺破沙漠的天际线，棕榈岛是人类向大自然炫耀的签名。黄金市场的金链子按斤称，这里把不可能当早餐吃。"
+  },
+  {
+    "name": "纽约",
+    "name_en": "New York",
+    "country": "US",
+    "region": "北美",
+    "primary_element": "金",
+    "secondary_element": "火",
+    "lat": 40.71,
+    "lng": -74.01,
+    "basis": "世界之都，华尔街金融，百老汇艺术，永不停歇",
+    "experiences": [
+      "中央公园",
+      "大都会博物馆",
+      "时代广场"
+    ],
+    "tags": [
+      "金融",
+      "艺术",
+      "不夜城"
+    ],
+    "vibe": "时代广场的灯比太阳还不肯关，中央公园是钢铁丛林里留的一口气。凌晨四点的地铁里有西装也有萨克斯，这座城市从不问你是谁。"
+  },
+  {
+    "name": "伦敦",
+    "name_en": "London",
+    "country": "GB",
+    "region": "欧洲",
+    "primary_element": "金",
+    "secondary_element": "水",
+    "lat": 51.51,
+    "lng": -0.13,
+    "basis": "金融城与皇室传统，秩序与历史的交织",
+    "experiences": [
+      "大英博物馆",
+      "泰晤士河",
+      "诺丁山"
+    ],
+    "tags": [
+      "金融",
+      "皇室",
+      "戏剧"
+    ],
+    "vibe": "大本钟在雾里只听得见钟声看不见脸，泰晤士河的水灰到很有性格。下午茶的规矩比法律还严格，但Camden Town的朋克不在乎。"
+  },
+  {
+    "name": "首尔江南",
+    "name_en": "Gangnam, Seoul",
+    "country": "KR",
+    "region": "韩国",
+    "primary_element": "金",
+    "secondary_element": "火",
+    "lat": 37.5,
+    "lng": 127.04,
+    "basis": "韩国财富与时尚中心，整形美容产业，精致消费",
+    "experiences": [
+      "COEX商场",
+      "狎鸥亭",
+      "清潭洞"
+    ],
+    "tags": [
+      "时尚",
+      "消费",
+      "精致"
+    ],
+    "vibe": "江南的咖啡馆比便利店多，清潭洞的衣服价格能买一辆二手车。整形医院和补习班共用一栋楼——这就是江南的精髓。"
+  },
+  {
+    "name": "厦门",
+    "name_en": "Xiamen",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 24.48,
+    "lng": 118.09,
+    "basis": "海上花园，温润如玉的海滨城市",
+    "experiences": [
+      "鼓浪屿",
+      "沙坡尾咖啡",
+      "环岛骑行"
+    ],
+    "tags": [
+      "海岛",
+      "文艺",
+      "温润"
+    ],
+    "vibe": "鼓浪屿的钢琴声从不关窗的老别墅里飘到海边，沙坡尾的猫比文青还多。这座城市把小清新做到了教科书级别。"
+  },
+  {
+    "name": "大理",
+    "name_en": "Dali",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "水",
+    "secondary_element": "土",
+    "lat": 25.59,
+    "lng": 100.23,
+    "basis": "风花雪月，洱海边的诗意远方",
+    "experiences": [
+      "洱海骑行",
+      "古城发呆",
+      "苍山徒步"
+    ],
+    "tags": [
+      "洱海",
+      "诗意",
+      "数字游民"
+    ],
+    "vibe": "洱海的蓝是能治病的那种蓝，古城人民路上每三步一个手鼓店。苍山的云从山顶滚下来像棉花糖，你摘不到但看着就甜。"
+  },
+  {
+    "name": "三亚",
+    "name_en": "Sanya",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 18.25,
+    "lng": 109.5,
+    "basis": "中国最南端热带海滨，碧海蓝天",
+    "experiences": [
+      "亚龙湾",
+      "天涯海角",
+      "蜈支洲岛"
+    ],
+    "tags": [
+      "热带",
+      "海滩",
+      "度假"
+    ],
+    "vibe": "亚龙湾的浪只够小朋友玩，蜈支洲岛的水清到鱼都在裸泳。这里的椰子比空调更能降温，喝完一个下午就过去了。"
+  },
+  {
+    "name": "青岛",
+    "name_en": "Qingdao",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 36.07,
+    "lng": 120.38,
+    "basis": "红瓦绿树碧海蓝天，啤酒之城",
+    "experiences": [
+      "栈桥",
+      "八大关",
+      "啤酒博物馆"
+    ],
+    "tags": [
+      "海滨",
+      "啤酒",
+      "欧式"
+    ],
+    "vibe": "栈桥上的海鸥比游客更知道哪里的角度最好，八大关的法国梧桐秋天黄得像在巴黎。啤酒用塑料袋装着喝是青岛人的专利。"
+  },
+  {
+    "name": "威海",
+    "name_en": "Weihai",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 37.51,
+    "lng": 122.12,
+    "basis": "最适合人类居住的城市之一，碧海银滩",
+    "experiences": [
+      "刘公岛",
+      "国际海水浴场",
+      "成山头"
+    ],
+    "tags": [
+      "宜居",
+      "海滨",
+      "清净"
+    ],
+    "vibe": "海水浴场安静到能听见海草呼吸，成山头的日出是中国大陆最早的。这座城市适合什么都不干，被海风吹一天就算旅行。"
+  },
+  {
+    "name": "巴厘岛",
+    "name_en": "Bali",
+    "country": "ID",
+    "region": "东南亚",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": -8.34,
+    "lng": 115.09,
+    "basis": "众神之岛，灵性疗愈的圣地",
+    "experiences": [
+      "海神庙日落",
+      "乌鲁瓦图",
+      "水明漾冲浪"
+    ],
+    "tags": [
+      "灵性",
+      "冲浪",
+      "日落"
+    ],
+    "vibe": "海神庙的岩石被浪打了几百年还没低头，库塔的日落把冲浪板变成剪影。当地人每天在路边摆的祭品和他们的微笑一样认真。"
+  },
+  {
+    "name": "济州岛",
+    "name_en": "Jeju",
+    "country": "KR",
+    "region": "韩国",
+    "primary_element": "水",
+    "secondary_element": "土",
+    "lat": 33.49,
+    "lng": 126.53,
+    "basis": "火山海岛，大自然的疗愈力量",
+    "experiences": [
+      "汉拿山",
+      "海女文化",
+      "柑橘园"
+    ],
+    "tags": [
+      "火山",
+      "海岛",
+      "疗愈"
+    ],
+    "vibe": "汉拿山的杜鹃花五月开成粉色的海，海女奶奶七十岁了还能潜到十米深。石头爷爷的表情每一尊都不一样，但都像在说没关系。"
+  },
+  {
+    "name": "马尔代夫",
+    "name_en": "Maldives",
+    "country": "MV",
+    "region": "南亚",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 3.2,
+    "lng": 73.22,
+    "basis": "印度洋上的珍珠，纯净海水的极致",
+    "experiences": [
+      "水屋日落",
+      "浮潜",
+      "海底餐厅"
+    ],
+    "tags": [
+      "海岛",
+      "奢华",
+      "纯净"
+    ],
+    "vibe": "水屋的玻璃地板下面游过的鱼和你四目相对，日落时整片印度洋变成一面镜子。沙子白到不穿墨镜会被闪到，这里连下雨都是温柔的。"
+  },
+  {
+    "name": "冰岛",
+    "name_en": "Iceland",
+    "country": "IS",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 64.15,
+    "lng": -21.94,
+    "basis": "冰与火之地，极光瀑布温泉，地球的尽头",
+    "experiences": [
+      "蓝湖温泉",
+      "极光",
+      "黄金圈"
+    ],
+    "tags": [
+      "极光",
+      "温泉",
+      "极致"
+    ],
+    "vibe": "蓝湖温泉热到你忘了外面零下十度，间歇泉喷发时整个地面都在抖。极光划过天空像有人在用荧光笔涂鸦——只涂了一笔就是永恒。"
+  },
+  {
+    "name": "威尼斯",
+    "name_en": "Venice",
+    "country": "IT",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 45.44,
+    "lng": 12.32,
+    "basis": "水上之城，千年沉浮，浪漫与忧郁并存",
+    "experiences": [
+      "贡多拉",
+      "圣马可广场",
+      "彩色岛"
+    ],
+    "tags": [
+      "水城",
+      "浪漫",
+      "艺术"
+    ],
+    "vibe": "贡多拉穿过叹息桥时船夫不唱歌反而更浪漫，圣马可广场涨潮时踩着跳板走路像在过独木桥。这座城市每年下沉一点，但美不减分。"
+  },
+  {
+    "name": "悉尼",
+    "name_en": "Sydney",
+    "country": "AU",
+    "region": "大洋洲",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": -33.87,
+    "lng": 151.21,
+    "basis": "海港之城，歌剧院与海滩的完美组合",
+    "experiences": [
+      "歌剧院",
+      "邦迪海滩",
+      "蓝山"
+    ],
+    "tags": [
+      "海港",
+      "活力",
+      "阳光"
+    ],
+    "vibe": "歌剧院的屋顶是帆还是贝壳至今没有定论，邦迪海滩的浪够冲浪也够发呆。从海港大桥上看日落你会理解什么叫值回票价。"
+  },
+  {
+    "name": "巴塞罗那",
+    "name_en": "Barcelona",
+    "country": "ES",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 41.39,
+    "lng": 2.17,
+    "basis": "地中海明珠，高迪的奇幻与海滩的自由",
+    "experiences": [
+      "圣家堂",
+      "兰布拉大街",
+      "巴塞罗内塔海滩"
+    ],
+    "tags": [
+      "艺术",
+      "海滩",
+      "自由"
+    ],
+    "vibe": "圣家堂修了一百四十年还没完工，但每个角度都值得等。兰布拉大街的行为艺术家比鸽子更能站，海边的paella要配一杯sangria。"
+  },
+  {
+    "name": "里斯本",
+    "name_en": "Lisbon",
+    "country": "PT",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "土",
+    "lat": 38.72,
+    "lng": -9.14,
+    "basis": "七丘之城，大航海起点，忧郁与温暖共存",
+    "experiences": [
+      "贝伦塔",
+      "阿尔法玛老城",
+      "蛋挞朝圣"
+    ],
+    "tags": [
+      "大航海",
+      "怀旧",
+      "温暖"
+    ],
+    "vibe": "28路有轨电车在窄巷里吱呀作响像在叹气，贝伦蛋挞的焦糖面比网红滤镜更好看。这座城市把忧郁变成了法朵，用来唱的那种。"
+  },
+  {
+    "name": "武汉",
+    "name_en": "Wuhan",
+    "country": "CN",
+    "region": "华中",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 30.59,
+    "lng": 114.31,
+    "basis": "九省通衢，长江与汉江交汇，过早文化",
+    "experiences": [
+      "黄鹤楼",
+      "户部巷",
+      "东湖绿道"
+    ],
+    "tags": [
+      "江城",
+      "过早",
+      "大学城"
+    ],
+    "vibe": "长江和汉江在这里握手，黄鹤楼看了一千年还没看够。过早的热干面用筷子搅到芝麻酱糊满每一根，这座城市醒得比所有人都早。"
+  },
+  {
+    "name": "南京",
+    "name_en": "Nanjing",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 32.06,
+    "lng": 118.8,
+    "basis": "六朝古都，秦淮河畔，厚重与文雅并存",
+    "experiences": [
+      "中山陵",
+      "夫子庙",
+      "先锋书店"
+    ],
+    "tags": [
+      "古都",
+      "文脉",
+      "梧桐"
+    ],
+    "vibe": "梧桐树把颐和路遮成绿色隧道，中山陵的三百九十二级台阶走上去就不想下来。先锋书店在地下车库里卖书，大概只有南京做得出来。"
+  },
+  {
+    "name": "天津",
+    "name_en": "Tianjin",
+    "country": "CN",
+    "region": "华北",
+    "primary_element": "水",
+    "secondary_element": "土",
+    "lat": 39.13,
+    "lng": 117.2,
+    "basis": "九河下梢，相声之城，中西合璧的万国建筑",
+    "experiences": [
+      "五大道",
+      "天津之眼",
+      "煎饼果子"
+    ],
+    "tags": [
+      "相声",
+      "洋楼",
+      "美食"
+    ],
+    "vibe": "五大道的洋楼说英语法语意大利语但吃的是煎饼果子，天津之眼转一圈刚好能把一个相声段子听完。这座城市幽默到连河都叫海河。"
+  },
+  {
+    "name": "哈尔滨",
+    "name_en": "Harbin",
+    "country": "CN",
+    "region": "东北",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 45.75,
+    "lng": 126.65,
+    "basis": "冰城，北国风光，俄式建筑，冰雪大世界",
+    "experiences": [
+      "冰雪大世界",
+      "中央大街",
+      "索菲亚教堂"
+    ],
+    "tags": [
+      "冰雪",
+      "俄式",
+      "豪爽"
+    ],
+    "vibe": "中央大街的面包石被踩了一百年发着光，冰雪大世界的冰雕比真建筑还宏伟但只活一季。马迭尔冰棍在零下三十度吃叫以毒攻毒。"
+  },
+  {
+    "name": "大连",
+    "name_en": "Dalian",
+    "country": "CN",
+    "region": "东北",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 38.91,
+    "lng": 121.6,
+    "basis": "北方明珠，海滨城市，广场之城",
+    "experiences": [
+      "星海广场",
+      "老虎滩",
+      "东港"
+    ],
+    "tags": [
+      "海滨",
+      "广场",
+      "浪漫"
+    ],
+    "vibe": "星海广场大到能装下几个天安门，老虎滩的海狮拍手比游客鼓掌更热情。海鲜烧烤的烟和海风混在一起，是大连夏天的味道。"
+  },
+  {
+    "name": "福州",
+    "name_en": "Fuzhou",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 26.07,
+    "lng": 119.3,
+    "basis": "有福之州，温泉之都，榕树成荫",
+    "experiences": [
+      "三坊七巷",
+      "鼓山",
+      "温泉体验"
+    ],
+    "tags": [
+      "温泉",
+      "榕树",
+      "闽菜"
+    ],
+    "vibe": "三坊七巷的青石板走起来像在翻一本古书，鼓山涌泉寺的泉水煮茶是福州人的私藏。榕树把整座城市遮成一把巨大的伞。"
+  },
+  {
+    "name": "长春",
+    "name_en": "Changchun",
+    "country": "CN",
+    "region": "东北",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 43.88,
+    "lng": 125.32,
+    "basis": "北国春城，汽车城，森林覆盖率高",
+    "experiences": [
+      "净月潭",
+      "伪满皇宫",
+      "长影世纪城"
+    ],
+    "tags": [
+      "森林",
+      "电影",
+      "汽车"
+    ],
+    "vibe": "净月潭的森林密到阳光要排队才能落地，伪满皇宫的故事比它的建筑更让人沉默。东北人的热情在长春版本里多了一份文气。"
+  },
+  {
+    "name": "西宁",
+    "name_en": "Xining",
+    "country": "CN",
+    "region": "西北",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 36.62,
+    "lng": 101.78,
+    "basis": "高原古城，青海湖门户，多民族交汇",
+    "experiences": [
+      "青海湖",
+      "塔尔寺",
+      "莫家街"
+    ],
+    "tags": [
+      "高原",
+      "湖泊",
+      "多民族"
+    ],
+    "vibe": "塔尔寺的酥油花用零下的温度雕出了热烈，青海湖七月的油菜花把天空都染黄了。莫家街的酿皮子酸辣到让你眯起眼然后笑出来。"
+  },
+  {
+    "name": "兰州",
+    "name_en": "Lanzhou",
+    "country": "CN",
+    "region": "西北",
+    "primary_element": "土",
+    "secondary_element": "金",
+    "lat": 36.06,
+    "lng": 103.83,
+    "basis": "黄河穿城而过，丝路重镇，牛肉面之都",
+    "experiences": [
+      "中山桥",
+      "黄河母亲",
+      "牛肉面朝圣"
+    ],
+    "tags": [
+      "黄河",
+      "丝路",
+      "面食"
+    ],
+    "vibe": "中山桥在黄河上站了一百多年，铁锈色和黄河水颜色配得刚好。牛肉面馆凌晨五点就开门，吃面的人比上班的还准时。"
+  },
+  {
+    "name": "呼和浩特",
+    "name_en": "Hohhot",
+    "country": "CN",
+    "region": "华北",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 40.84,
+    "lng": 111.75,
+    "basis": "青色的城，草原门户，蒙古文化",
+    "experiences": [
+      "大召寺",
+      "敕勒川草原",
+      "蒙古包体验"
+    ],
+    "tags": [
+      "草原",
+      "蒙古",
+      "奶茶"
+    ],
+    "vibe": "大召寺的转经筒还带着酥油的体温，敕勒川的草原终于不只是课本里的诗。奶茶咸的才是正宗的，甜的那叫奶茶店。"
+  },
+  {
+    "name": "珠海",
+    "name_en": "Zhuhai",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 22.27,
+    "lng": 113.58,
+    "basis": "浪漫之城，海滨花园，宜居典范",
+    "experiences": [
+      "情侣路",
+      "长隆海洋王国",
+      "外伶仃岛"
+    ],
+    "tags": [
+      "浪漫",
+      "海滨",
+      "宜居"
+    ],
+    "vibe": "情侣路吹来的风替所有单身的人都浪漫了一把，长隆的鲸鲨在你头顶游过去时你会本能地低头。这座城市把宜居两个字活成了样板间。"
+  },
+  {
+    "name": "泉州",
+    "name_en": "Quanzhou",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 24.87,
+    "lng": 118.68,
+    "basis": "海上丝路起点，多元宗教共存，烟火气浓",
+    "experiences": [
+      "开元寺",
+      "西街",
+      "关帝庙"
+    ],
+    "tags": [
+      "海丝",
+      "宗教",
+      "闽南"
+    ],
+    "vibe": "开元寺的东西塔看了彼此一千年没吵过架，西街的面线糊加醋肉是泉州人的乡愁配方。这座城被联合国认证过，但它自己不在意。"
+  },
+  {
+    "name": "沈阳",
+    "name_en": "Shenyang",
+    "country": "CN",
+    "region": "东北",
+    "primary_element": "金",
+    "secondary_element": "土",
+    "lat": 41.8,
+    "lng": 123.43,
+    "basis": "一朝发祥地，重工业之城，故宫所在",
+    "experiences": [
+      "沈阳故宫",
+      "中街",
+      "老边饺子"
+    ],
+    "tags": [
+      "皇城",
+      "工业",
+      "东北菜"
+    ],
+    "vibe": "沈阳故宫比北京的小但红墙黄瓦一样气派，中街的鸡架烤得嘎嘎香。这座城市的豪爽刻在每一个管你叫'老弟'的陌生人脸上。"
+  },
+  {
+    "name": "郑州",
+    "name_en": "Zhengzhou",
+    "country": "CN",
+    "region": "华中",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 34.75,
+    "lng": 113.65,
+    "basis": "天地之中，交通枢纽，商城遗址",
+    "experiences": [
+      "少林寺",
+      "黄河风景区",
+      "烩面"
+    ],
+    "tags": [
+      "中原",
+      "少林",
+      "枢纽"
+    ],
+    "vibe": "少林寺的功夫不是电影里演的那样但比电影更震撼，黄河边的风大到能把手机吹跑。烩面的碗比脸大，这是中原人的待客之道。"
+  },
+  {
+    "name": "太原",
+    "name_en": "Taiyuan",
+    "country": "CN",
+    "region": "华北",
+    "primary_element": "土",
+    "secondary_element": "金",
+    "lat": 37.87,
+    "lng": 112.55,
+    "basis": "龙城宝地，晋商故里，醋都面乡",
+    "experiences": [
+      "晋祠",
+      "双塔寺",
+      "柳巷"
+    ],
+    "tags": [
+      "晋商",
+      "醋",
+      "面食"
+    ],
+    "vibe": "晋祠的圣母殿等了你一千年，双塔寺的砖塔是太原天际线最固执的两根钉子。醋厂的空气能把你腌入味，面食的种类多到连本地人都数不清。"
+  },
+  {
+    "name": "河内",
+    "name_en": "Hanoi",
+    "country": "VN",
+    "region": "东南亚",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 21.03,
+    "lng": 105.85,
+    "basis": "千年古城，法式殖民建筑与越南传统交融",
+    "experiences": [
+      "还剑湖",
+      "三十六行街",
+      "河粉早餐"
+    ],
+    "tags": [
+      "古城",
+      "法式",
+      "河粉"
+    ],
+    "vibe": "还剑湖的乌龟传说和湖面上的雾一样古老，三十六行街的摩托车流像一条永不断裂的河。一碗河粉的鲜从凌晨一直鲜到深夜。"
+  },
+  {
+    "name": "吉隆坡",
+    "name_en": "Kuala Lumpur",
+    "country": "MY",
+    "region": "东南亚",
+    "primary_element": "火",
+    "secondary_element": "金",
+    "lat": 3.14,
+    "lng": 101.69,
+    "basis": "双子塔之城，多元文化熔炉",
+    "experiences": [
+      "双子塔",
+      "黑风洞",
+      "茨厂街"
+    ],
+    "tags": [
+      "多元",
+      "美食",
+      "现代"
+    ],
+    "vibe": "双子塔在夜里像两根银色的蜡烛插在城市蛋糕上，黑风洞的彩虹阶梯爬上去能遇到猴子和神。茨厂街的肉骨茶胡椒味能把你辣醒。"
+  },
+  {
+    "name": "胡志明市",
+    "name_en": "Ho Chi Minh City",
+    "country": "VN",
+    "region": "东南亚",
+    "primary_element": "火",
+    "secondary_element": "水",
+    "lat": 10.82,
+    "lng": 106.63,
+    "basis": "东方小巴黎，摩托车洪流，活力四射",
+    "experiences": [
+      "统一宫",
+      "范五老街",
+      "咖啡公寓"
+    ],
+    "tags": [
+      "活力",
+      "咖啡",
+      "摩托"
+    ],
+    "vibe": "统一宫安静得像按了暂停键，出门就是摩托车大军的快进模式。咖啡公寓的越南滴漏一滴一滴教你什么叫等待是值得的。"
+  },
+  {
+    "name": "万象",
+    "name_en": "Vientiane",
+    "country": "LA",
+    "region": "东南亚",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 17.97,
+    "lng": 102.63,
+    "basis": "湄公河畔最安静的首都，佛教文化深厚",
+    "experiences": [
+      "塔銮",
+      "湄公河日落",
+      "法式面包"
+    ],
+    "tags": [
+      "安静",
+      "佛教",
+      "慢"
+    ],
+    "vibe": "塔銮在日落时金得不像真的，湄公河边坐一下午只花了一杯老挝啤酒的钱。这座首都安静得像一座会呼吸的寺庙。"
+  },
+  {
+    "name": "巴黎",
+    "name_en": "Paris",
+    "country": "FR",
+    "region": "欧洲",
+    "primary_element": "金",
+    "secondary_element": "火",
+    "lat": 48.86,
+    "lng": 2.35,
+    "basis": "光之城，时尚与艺术之都，精致生活的定义者",
+    "experiences": [
+      "卢浮宫",
+      "塞纳河",
+      "蒙马特"
+    ],
+    "tags": [
+      "时尚",
+      "艺术",
+      "浪漫"
+    ],
+    "vibe": "卢浮宫的蒙娜丽莎比你想的小，但塞纳河的日落比你想的美。蒙马特的画家用你的脸赚午餐钱，你觉得赚到的是你。"
+  },
+  {
+    "name": "维也纳",
+    "name_en": "Vienna",
+    "country": "AT",
+    "region": "欧洲",
+    "primary_element": "金",
+    "secondary_element": "土",
+    "lat": 48.21,
+    "lng": 16.37,
+    "basis": "音乐之都，哈布斯堡皇朝的优雅遗产",
+    "experiences": [
+      "美泉宫",
+      "金色大厅",
+      "咖啡馆文化"
+    ],
+    "tags": [
+      "音乐",
+      "宫殿",
+      "咖啡"
+    ],
+    "vibe": "金色大厅的音符飘到了Demel咖啡馆的萨赫蛋糕上，美泉宫的花园大到茜茜公主都会迷路。这座城市把优雅做成了空气。"
+  },
+  {
+    "name": "阿姆斯特丹",
+    "name_en": "Amsterdam",
+    "country": "NL",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 52.37,
+    "lng": 4.9,
+    "basis": "运河之城，自由开放，创意之都",
+    "experiences": [
+      "运河游船",
+      "梵高博物馆",
+      "约旦区"
+    ],
+    "tags": [
+      "运河",
+      "自由",
+      "创意"
+    ],
+    "vibe": "运河上的船屋比岸上的房子更像家，梵高博物馆出来的人眼眶都是红的。这座城市把自由印在了每一块歪歪斜斜的砖上。"
+  },
+  {
+    "name": "哥本哈根",
+    "name_en": "Copenhagen",
+    "country": "DK",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 55.68,
+    "lng": 12.57,
+    "basis": "北欧设计之都，幸福指数最高，骑行文化",
+    "experiences": [
+      "新港",
+      "小美人鱼",
+      "Tivoli乐园"
+    ],
+    "tags": [
+      "设计",
+      "幸福",
+      "骑行"
+    ],
+    "vibe": "新港的彩色房子像乐高积木搭的明信片，骑自行车的人比汽车多三倍。Tivoli的旋转木马转了一百八十年还没停。"
+  },
+  {
+    "name": "爱丁堡",
+    "name_en": "Edinburgh",
+    "country": "GB",
+    "region": "欧洲",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 55.95,
+    "lng": -3.19,
+    "basis": "苏格兰古都，哈利波特灵感之城，厚重神秘",
+    "experiences": [
+      "爱丁堡城堡",
+      "皇家英里",
+      "亚瑟王座"
+    ],
+    "tags": [
+      "古堡",
+      "文学",
+      "神秘"
+    ],
+    "vibe": "城堡在火山岩上蹲了九百年，皇家英里的风笛手吹出的调子被雨水淋湿但不走样。JK罗琳在大象咖啡馆写出霍格沃茨，因为爱丁堡本身就像魔法。"
+  },
+  {
+    "name": "旧金山",
+    "name_en": "San Francisco",
+    "country": "US",
+    "region": "北美",
+    "primary_element": "金",
+    "secondary_element": "水",
+    "lat": 37.77,
+    "lng": -122.42,
+    "basis": "科技创新中心，金门大桥，多元包容",
+    "experiences": [
+      "金门大桥",
+      "渔人码头",
+      "硅谷参访"
+    ],
+    "tags": [
+      "科技",
+      "多元",
+      "海湾"
+    ],
+    "vibe": "金门大桥的橘红色在雾里若隐若现像一个不确定的承诺，渔人码头的海狮赖在栈桥上赖了几十年。缆车的铃声是这座城市的心跳。"
+  },
+  {
+    "name": "洛杉矶",
+    "name_en": "Los Angeles",
+    "country": "US",
+    "region": "北美",
+    "primary_element": "火",
+    "secondary_element": "金",
+    "lat": 34.05,
+    "lng": -118.24,
+    "basis": "天使之城，好莱坞娱乐之都，阳光与梦想",
+    "experiences": [
+      "好莱坞",
+      "圣莫尼卡海滩",
+      "格里菲斯天文台"
+    ],
+    "tags": [
+      "娱乐",
+      "阳光",
+      "梦想"
+    ],
+    "vibe": "好莱坞的字母在山坡上晒了一百年还没褪色，圣莫尼卡的日落把66号公路的终点染成金色。这座城市贩卖梦想，而且真有人买到了。"
+  },
+  {
+    "name": "多伦多",
+    "name_en": "Toronto",
+    "country": "CA",
+    "region": "北美",
+    "primary_element": "金",
+    "secondary_element": "水",
+    "lat": 43.65,
+    "lng": -79.38,
+    "basis": "加拿大金融中心，多元文化之都",
+    "experiences": [
+      "CN塔",
+      "肯辛顿市场",
+      "尼亚加拉"
+    ],
+    "tags": [
+      "多元",
+      "金融",
+      "宜居"
+    ],
+    "vibe": "CN塔从天际线里伸出来像一根信号天线在接收整个世界，肯辛顿市场把地球村做成了一条街。尼亚加拉的水声大到你只能点头。"
+  },
+  {
+    "name": "乌镇",
+    "name_en": "Wuzhen",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 30.74,
+    "lng": 120.49,
+    "basis": "枕水人家，千年水乡，互联网大会举办地",
+    "experiences": [
+      "西栅夜景",
+      "乌篷船",
+      "蓝印花布"
+    ],
+    "tags": [
+      "水乡",
+      "古镇",
+      "诗意"
+    ],
+    "vibe": "西栅的灯笼倒映在水里晃成一条光的河，乌篷船摇过桥洞时你要低头——这是乌镇教你的第一个礼节。"
+  },
+  {
+    "name": "凤凰古城",
+    "name_en": "Fenghuang",
+    "country": "CN",
+    "region": "华中",
+    "primary_element": "水",
+    "secondary_element": "土",
+    "lat": 27.95,
+    "lng": 109.6,
+    "basis": "沈从文笔下的边城，沱江畔的苗族风情",
+    "experiences": [
+      "沱江泛舟",
+      "吊脚楼",
+      "苗族银饰"
+    ],
+    "tags": [
+      "边城",
+      "苗族",
+      "怀旧"
+    ],
+    "vibe": "沱江的水把吊脚楼的倒影揉碎了又拼好，苗银在灯光下叮当响。沈从文说这是一座适合发呆的城，他说对了。"
+  },
+  {
+    "name": "张家界",
+    "name_en": "Zhangjiajie",
+    "country": "CN",
+    "region": "华中",
+    "primary_element": "木",
+    "secondary_element": "土",
+    "lat": 29.12,
+    "lng": 110.48,
+    "basis": "阿凡达取景地，砂岩峰林，原始森林",
+    "experiences": [
+      "天门山",
+      "玻璃桥",
+      "金鞭溪"
+    ],
+    "tags": [
+      "奇峰",
+      "森林",
+      "探险"
+    ],
+    "vibe": "石柱从云雾里长出来像是天上种的树，金鞭溪的水清到石头的纹理都是高清的。玻璃桥走到一半腿开始抖——但你舍不得不走完。"
+  },
+  {
+    "name": "九寨沟",
+    "name_en": "Jiuzhaigou",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 33.26,
+    "lng": 103.92,
+    "basis": "人间仙境，五彩池海子，藏族文化",
+    "experiences": [
+      "五花海",
+      "诺日朗瀑布",
+      "藏寨体验"
+    ],
+    "tags": [
+      "仙境",
+      "彩池",
+      "藏族"
+    ],
+    "vibe": "五花海的颜色不是画出来的是长出来的，诺日朗瀑布宽到像天空在倒水。秋天的九寨沟忙着把每片叶子都染成不同的颜色。"
+  },
+  {
+    "name": "佛罗伦萨",
+    "name_en": "Florence",
+    "country": "IT",
+    "region": "欧洲",
+    "primary_element": "金",
+    "secondary_element": "土",
+    "lat": 43.77,
+    "lng": 11.26,
+    "basis": "文艺复兴发源地，美第奇家族铸就的艺术黄金秩序",
+    "vibe": "走在石板路上，每转一个街角都能撞见五百年前的神迹——乌菲兹的光，圣母百花的穹顶，把时间凝固成金",
+    "experiences": [
+      "乌菲兹美术馆",
+      "圣母百花大教堂",
+      "米开朗基罗广场日落"
+    ],
+    "tags": [
+      "文艺复兴",
+      "艺术",
+      "精致"
+    ]
+  },
+  {
+    "name": "米兰",
+    "name_en": "Milan",
+    "country": "IT",
+    "region": "欧洲",
+    "primary_element": "金",
+    "secondary_element": "火",
+    "lat": 45.46,
+    "lng": 9.19,
+    "basis": "时装周之都，精密工业与奢侈品牌的金属光泽",
+    "vibe": "橱窗里的光比阳光更亮，T台上的每一步都是宣言，圣安布罗焦教堂和普拉达旗舰店共享同一条街，这座城市把美变成了一种精密工业",
+    "experiences": [
+      "时装周街拍",
+      "达芬奇最后的晚餐",
+      "米兰大教堂"
+    ],
+    "tags": [
+      "时尚",
+      "奢侈品",
+      "设计"
+    ]
+  },
+  {
+    "name": "马德里",
+    "name_en": "Madrid",
+    "country": "ES",
+    "region": "欧洲",
+    "primary_element": "火",
+    "secondary_element": "金",
+    "lat": 40.42,
+    "lng": -3.7,
+    "basis": "西班牙王国首都，斗牛与弗拉明戈，激情燃烧之都",
+    "vibe": "凌晨两点的酒吧比正午更热闹，普拉多的戈雅和街头的斗牛海报说着同一种语言：热烈才是生命本质",
+    "experiences": [
+      "普拉多博物馆",
+      "太阳门广场",
+      "王宫"
+    ],
+    "tags": [
+      "激情",
+      "艺术",
+      "夜生活"
+    ]
+  },
+  {
+    "name": "塞维利亚",
+    "name_en": "Seville",
+    "country": "ES",
+    "region": "欧洲",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 37.39,
+    "lng": -5.99,
+    "basis": "弗拉明戈发源地，安达卢西亚热情，摩尔遗迹交融",
+    "vibe": "橙花香气里一声吉他响，裙摆旋转，踏脚声震碎白色石灰墙——这是弗拉明戈，也是塞维利亚的心跳",
+    "experiences": [
+      "弗拉明戈现场",
+      "大教堂&希拉尔达塔",
+      "阿尔卡萨尔宫"
+    ],
+    "tags": [
+      "弗拉明戈",
+      "摩尔建筑",
+      "热情"
+    ]
+  },
+  {
+    "name": "圣托里尼",
+    "name_en": "Santorini",
+    "country": "GR",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 36.4,
+    "lng": 25.43,
+    "basis": "火山岛海岸，爱琴海蓝白美学，极致视觉净化",
+    "vibe": "蓝色圆顶漂浮在悬崖之上，爱琴海把夕阳染成玫瑰金，这里的每一张照片都像谎言，但它是真实的",
+    "experiences": [
+      "伊亚日落",
+      "红沙滩",
+      "卡玛利海滩"
+    ],
+    "tags": [
+      "蓝白",
+      "海岛",
+      "日落"
+    ]
+  },
+  {
+    "name": "柏林",
+    "name_en": "Berlin",
+    "country": "DE",
+    "region": "欧洲",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 52.52,
+    "lng": 13.4,
+    "basis": "历史伤痕与创意再生，地下电子乐与博物馆岛共存",
+    "vibe": "柏林墙的涂鸦还未干透，Berghain的音乐已震彻黎明——这座城市用废墟培育自由，用伤疤书写重生",
+    "experiences": [
+      "柏林墙遗址",
+      "博物馆岛",
+      "Berghain夜店区"
+    ],
+    "tags": [
+      "历史",
+      "地下文化",
+      "创意"
+    ]
+  },
+  {
+    "name": "慕尼黑",
+    "name_en": "Munich",
+    "country": "DE",
+    "region": "欧洲",
+    "primary_element": "土",
+    "secondary_element": "金",
+    "lat": 48.14,
+    "lng": 11.58,
+    "basis": "巴伐利亚王国古都，啤酒节，精密工业BMW故乡",
+    "vibe": "一升杯碰响的瞬间，啤酒节的帐篷爆发出雷鸣般的欢呼，英国花园的阳光下有人在内陆冲浪——德意志的快乐，精确而盛大",
+    "experiences": [
+      "啤酒节",
+      "新天鹅堡",
+      "宝马世界"
+    ],
+    "tags": [
+      "啤酒",
+      "巴伐利亚",
+      "精密"
+    ]
+  },
+  {
+    "name": "赫尔辛基",
+    "name_en": "Helsinki",
+    "country": "FI",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 60.17,
+    "lng": 24.94,
+    "basis": "波罗的海女儿，北欧设计之源，桑拿文化",
+    "vibe": "波罗的海的风把城市打磨得光洁如石，设计博物馆旁的咖啡馆里，人们把极简主义过成了生活哲学",
+    "experiences": [
+      "岩石教堂",
+      "设计区",
+      "桑拿文化体验"
+    ],
+    "tags": [
+      "北欧设计",
+      "极简",
+      "海港"
+    ]
+  },
+  {
+    "name": "斯德哥尔摩",
+    "name_en": "Stockholm",
+    "country": "SE",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 59.33,
+    "lng": 18.07,
+    "basis": "十四座岛屿上的北欧王都，维京文明与现代设计",
+    "vibe": "城市漂浮在水与水之间，老城的鹅卵石路上走着维京人的后裔，他们发明了宜家，也发明了一种叫福祉的生活方式",
+    "experiences": [
+      "老城Gamla Stan",
+      "瓦萨沉船博物馆",
+      "ABBA博物馆"
+    ],
+    "tags": [
+      "北欧",
+      "维京",
+      "设计"
+    ]
+  },
+  {
+    "name": "杜布罗夫尼克",
+    "name_en": "Dubrovnik",
+    "country": "HR",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "土",
+    "lat": 42.65,
+    "lng": 18.09,
+    "basis": "亚得里亚海明珠，中世纪城墙完整保存，权游取景地",
+    "vibe": "城墙之内是一部未曾中断的中世纪故事，城墙之外是湛蓝到不真实的亚得里亚海——这就是真实存在的君临城",
+    "experiences": [
+      "古城墙环游",
+      "索道俯瞰",
+      "洛克鲁姆岛"
+    ],
+    "tags": [
+      "城墙",
+      "亚得里亚海",
+      "中世纪"
+    ]
+  },
+  {
+    "name": "布达佩斯",
+    "name_en": "Budapest",
+    "country": "HU",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "土",
+    "lat": 47.5,
+    "lng": 19.04,
+    "basis": "多瑙河上的双子城，温泉之城，哈布斯堡帝国遗珍",
+    "vibe": "多瑙河把城市一分为二，布达的山城倒映在水中，佩斯的夜光沿岸燃起——在温泉浴池里望着穹顶，时间停止了流动",
+    "experiences": [
+      "塞切尼温泉浴场",
+      "国会大厦夜景",
+      "渔人堡"
+    ],
+    "tags": [
+      "温泉",
+      "多瑙河",
+      "巴洛克"
+    ]
+  },
+  {
+    "name": "华沙",
+    "name_en": "Warsaw",
+    "country": "PL",
+    "region": "欧洲",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 52.23,
+    "lng": 21.01,
+    "basis": "涅槃重生之城，二战废墟上重建的历史中心，波兰精神",
+    "vibe": "华沙老城的每一块砖都是战后从照片里复原的记忆，这座城市死过一次，然后用意志重新站起——这是人类史上最顽强的重建",
+    "experiences": [
+      "华沙起义博物馆",
+      "老城广场",
+      "肖邦音乐会"
+    ],
+    "tags": [
+      "重生",
+      "历史",
+      "肖邦"
+    ]
+  },
+  {
+    "name": "克拉科夫",
+    "name_en": "Krakow",
+    "country": "PL",
+    "region": "欧洲",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 50.06,
+    "lng": 19.94,
+    "basis": "波兰古都，中世纪保存最完好，奥斯维辛历史重量",
+    "vibe": "市集广场是中世纪欧洲最大的广场，纺织会馆的回廊里回响着百年商贸的低语，而城外的奥斯维辛让历史永远无法被遗忘",
+    "experiences": [
+      "瓦维尔城堡",
+      "奥斯维辛纪念地",
+      "犹太区卡齐米日"
+    ],
+    "tags": [
+      "古都",
+      "中世纪",
+      "历史记忆"
+    ]
+  },
+  {
+    "name": "因特拉肯",
+    "name_en": "Interlaken",
+    "country": "CH",
+    "region": "欧洲",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 46.69,
+    "lng": 7.86,
+    "basis": "夹于两湖之间，阿尔卑斯极限运动天堂，自然震撼",
+    "vibe": "少女峰的雪顶触手可及，图恩湖与布里恩茨湖把小镇柔软地揽入怀中，这里的蓝天比明信片更蓝",
+    "experiences": [
+      "少女峰登顶",
+      "图恩湖游船",
+      "跳伞俯瞰阿尔卑斯"
+    ],
+    "tags": [
+      "阿尔卑斯",
+      "极限运动",
+      "湖泊"
+    ]
+  },
+  {
+    "name": "卢塞恩",
+    "name_en": "Lucerne",
+    "country": "CH",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 47.05,
+    "lng": 8.31,
+    "basis": "瑞士心脏，卡佩尔廊桥，湖光山色精密如钟表",
+    "vibe": "廊桥横跨罗伊斯河，每一扇窗格画里都藏着17世纪的故事，湖水把皮拉图斯山的倒影保存得比原物更清晰",
+    "experiences": [
+      "卡佩尔廊桥",
+      "狮子纪念碑",
+      "卢塞恩湖游船"
+    ],
+    "tags": [
+      "廊桥",
+      "湖光",
+      "钟表"
+    ]
+  },
+  {
+    "name": "尼斯",
+    "name_en": "Nice",
+    "country": "FR",
+    "region": "欧洲",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 43.7,
+    "lng": 7.27,
+    "basis": "法国里维埃拉明珠，蔚蓝海岸，阳光与地中海激情",
+    "vibe": "英国人大道的砾石海滩上，地中海把阳光磨碎洒在每张脸上，老城里的集市用柠檬黄和薰衣草紫涂满了夏天",
+    "experiences": [
+      "英国人大道",
+      "老城集市",
+      "马蒂斯美术馆"
+    ],
+    "tags": [
+      "蔚蓝海岸",
+      "地中海",
+      "阳光"
+    ]
+  },
+  {
+    "name": "摩纳哥",
+    "name_en": "Monaco",
+    "country": "MC",
+    "region": "欧洲",
+    "primary_element": "金",
+    "secondary_element": "水",
+    "lat": 43.74,
+    "lng": 7.43,
+    "basis": "世界最小国家之一，赌场王国，超跑与游艇的极致奢华",
+    "vibe": "蒙特卡洛赌场门口停着的超跑比美术馆的展品更闪耀，F1赛道从港口穿过，这个弹丸之地把财富密度做到了极致",
+    "experiences": [
+      "蒙特卡洛赌场",
+      "F1赛道体验",
+      "王子宫殿"
+    ],
+    "tags": [
+      "奢华",
+      "赌场",
+      "超跑"
+    ]
+  },
+  {
+    "name": "萨尔茨堡",
+    "name_en": "Salzburg",
+    "country": "AT",
+    "region": "欧洲",
+    "primary_element": "金",
+    "secondary_element": "土",
+    "lat": 47.8,
+    "lng": 13.04,
+    "basis": "莫扎特故乡，巴洛克建筑精华，音乐节圣地",
+    "vibe": "莫扎特在这里学会了第一个音符，米拉贝尔花园的玫瑰每年准时为音乐节盛开，音乐与巴洛克在此融为一种语言",
+    "experiences": [
+      "莫扎特故居",
+      "米拉贝尔花园",
+      "萨尔茨堡音乐节"
+    ],
+    "tags": [
+      "莫扎特",
+      "巴洛克",
+      "音乐"
+    ]
+  },
+  {
+    "name": "塔林",
+    "name_en": "Tallinn",
+    "country": "EE",
+    "region": "欧洲",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 59.44,
+    "lng": 24.75,
+    "basis": "保存最完好的中世纪老城，波罗的海汉萨同盟遗迹",
+    "vibe": "老城的塔楼和城墙是中世纪欧洲最后的完整标本，鹅卵石街道在冬雪中泛着蓝光，这里是数字游民最爱的中世纪要塞",
+    "experiences": [
+      "市政厅广场",
+      "托姆皮亚城堡",
+      "老城城墙漫步"
+    ],
+    "tags": [
+      "中世纪",
+      "老城",
+      "数字游民"
+    ]
+  },
+  {
+    "name": "菲斯",
+    "name_en": "Fes",
+    "country": "MA",
+    "region": "非洲",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 34.03,
+    "lng": -5.0,
+    "basis": "世界最古老迷宫城市，摩洛哥文化之都，皮革染坊",
+    "vibe": "菲斯麦地那是一座活着的中世纪城市，9000条小巷里没有汽车，只有骡队、呼唤声和皮革染坊的色彩——迷路在此是一种恩赐",
+    "experiences": [
+      "卡鲁因皮革染坊",
+      "菲斯麦地那迷路",
+      "布伊纳尼亚神学院"
+    ],
+    "tags": [
+      "迷宫",
+      "皮革",
+      "中世纪"
+    ]
+  },
+  {
+    "name": "普吉岛",
+    "name_en": "Phuket",
+    "country": "TH",
+    "region": "东南亚",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 7.89,
+    "lng": 98.4,
+    "basis": "安达曼海明珠，热带岛屿度假胜地，珊瑚礁与夜生活",
+    "vibe": "安达曼海把每个海湾切割成私密的天堂，巴东的夜生活是另一种热带风景，天亮后一切归于海浪的平静",
+    "experiences": [
+      "皮皮岛一日游",
+      "芭东海滩",
+      "象神庙祈福"
+    ],
+    "tags": [
+      "热带",
+      "海岛",
+      "夜生活"
+    ]
+  },
+  {
+    "name": "苏梅岛",
+    "name_en": "Koh Samui",
+    "country": "TH",
+    "region": "东南亚",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 9.54,
+    "lng": 100.06,
+    "basis": "椰子岛，热带丛林与白沙滩，排毒疗愈胜地",
+    "vibe": "椰林沙滩上的瑜伽垫迎着日出，泰式按摩把海盐和香茅揉进肌肤，这座岛屿把疗愈变成了一门精美的艺术",
+    "experiences": [
+      "查汶海滩",
+      "大佛庙",
+      "健康排毒疗程"
+    ],
+    "tags": [
+      "椰岛",
+      "疗愈",
+      "海滩"
+    ]
+  },
+  {
+    "name": "岘港",
+    "name_en": "Da Nang",
+    "country": "VN",
+    "region": "东南亚",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 16.07,
+    "lng": 108.22,
+    "basis": "越南中部海岸，美溪海滩，巴拿山云雾",
+    "vibe": "美溪海滩的细沙白得像珍珠，龙桥每周末喷火喷水的瞬间让整座城市沸腾——这是越南进化最快的海滨城市",
+    "experiences": [
+      "美溪海滩",
+      "巴拿山黄金桥",
+      "龙桥喷火表演"
+    ],
+    "tags": [
+      "海滩",
+      "海鲜",
+      "网红"
+    ]
+  },
+  {
+    "name": "会安",
+    "name_en": "Hoi An",
+    "country": "VN",
+    "region": "东南亚",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 15.88,
+    "lng": 108.34,
+    "basis": "丝绸之路古港，灯笼之城，中日越文化交汇",
+    "vibe": "满月夜把灯笼的橙红映在会安河上，古镇的每条街都是一段贸易史的残章，骑车穿过稻田是一种时间旅行",
+    "experiences": [
+      "古镇灯笼节",
+      "骑车穿越稻田",
+      "订制旗袍"
+    ],
+    "tags": [
+      "古镇",
+      "灯笼",
+      "文化融合"
+    ]
+  },
+  {
+    "name": "暹粒",
+    "name_en": "Siem Reap",
+    "country": "KH",
+    "region": "东南亚",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 13.36,
+    "lng": 103.86,
+    "basis": "吴哥王朝遗址门户，高棉文明最后的见证",
+    "vibe": "日出时吴哥窟的倒影浮现在护城河里，石头微笑了一千年，丛林慢慢把它们吞噬又慢慢吐出——文明的尺度在这里被重新校准",
+    "experiences": [
+      "吴哥窟日出",
+      "塔普伦寺树根",
+      "洞里萨湖日落"
+    ],
+    "tags": [
+      "吴哥",
+      "高棉",
+      "遗址"
+    ]
+  },
+  {
+    "name": "仰光",
+    "name_en": "Yangon",
+    "country": "MM",
+    "region": "东南亚",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 16.87,
+    "lng": 96.19,
+    "basis": "缅甸旧都，金光闪耀的大金寺，殖民建筑遗存",
+    "vibe": "大金寺的金箔在赤道骄阳下刺穿眼帘，殖民时代的绿色火车绕城一圈只需几分钟，时间在仰光以一种独特的缓慢流动",
+    "experiences": [
+      "雪德宫大金寺",
+      "圆形铁路体验",
+      "仰光老城建筑"
+    ],
+    "tags": [
+      "金寺",
+      "殖民",
+      "慢生活"
+    ]
+  },
+  {
+    "name": "蒲甘",
+    "name_en": "Bagan",
+    "country": "MM",
+    "region": "东南亚",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 21.17,
+    "lng": 94.86,
+    "basis": "万塔之城，缅甸佛教文明顶峰，热气球胜地",
+    "vibe": "热气球升起的瞬间，两千座佛塔从晨雾中一一浮现，伊洛瓦底江静静地从旁流过——这是地球上最接近神迹的风景之一",
+    "experiences": [
+      "热气球观日出",
+      "骑电动车穿越佛塔群",
+      "达玛扬基寺"
+    ],
+    "tags": [
+      "佛塔",
+      "热气球",
+      "神迹"
+    ]
+  },
+  {
+    "name": "科伦坡",
+    "name_en": "Colombo",
+    "country": "LK",
+    "region": "南亚",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 6.93,
+    "lng": 79.85,
+    "basis": "印度洋十字路口，斯里兰卡商业之都，多元宗教港口",
+    "vibe": "加勒费斯路的海风把城市的香料气息送来又带走，佛塔清真寺教堂在同一条街共存，这是印度洋贸易风塑造的城市性格",
+    "experiences": [
+      "加勒费斯路海边散步",
+      "贝拉湖",
+      "科伦坡国家博物馆"
+    ],
+    "tags": [
+      "港口",
+      "多元",
+      "香料"
+    ]
+  },
+  {
+    "name": "加德满都",
+    "name_en": "Kathmandu",
+    "country": "NP",
+    "region": "南亚",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 27.72,
+    "lng": 85.32,
+    "basis": "喜马拉雅门户，印度教与佛教圣城，塔寺密集",
+    "vibe": "帕什帕提纳神庙的火焰映着恒河支流，通向喜马拉雅的长途巴士从这里出发，每隔几步就有一座神庙在烟火中凝视你",
+    "experiences": [
+      "帕什帕提纳神庙",
+      "博大哈大佛塔",
+      "飞越珠峰航班"
+    ],
+    "tags": [
+      "喜马拉雅",
+      "神庙",
+      "圣城"
+    ]
+  },
+  {
+    "name": "德里",
+    "name_en": "Delhi",
+    "country": "IN",
+    "region": "南亚",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 28.66,
+    "lng": 77.21,
+    "basis": "千年帝都叠加，莫卧儿与殖民遗迹并存，印度的大脑",
+    "vibe": "红堡的红砂岩在黄昏时燃烧，旧德里的香料市场让所有感官同时超载，新德里的宏大轴线又讲述着另一个帝国的梦",
+    "experiences": [
+      "红堡",
+      "月光集市",
+      "印度门"
+    ],
+    "tags": [
+      "帝都",
+      "香料",
+      "历史层叠"
+    ]
+  },
+  {
+    "name": "瓦拉纳西",
+    "name_en": "Varanasi",
+    "country": "IN",
+    "region": "南亚",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 25.32,
+    "lng": 83.01,
+    "basis": "印度教最神圣城市，恒河河坛，生死的边界之城",
+    "vibe": "恒河河坛上每天清晨点燃的火焰与亡者的骨灰混在一起汇入圣水，这是人类仪式最古老也最赤裸的形态——生与死在此没有边界",
+    "experiences": [
+      "恒河日出乘船",
+      "晚祷火焰仪式",
+      "萨尔纳特佛陀遗址"
+    ],
+    "tags": [
+      "恒河",
+      "圣城",
+      "生死"
+    ]
+  },
+  {
+    "name": "果阿",
+    "name_en": "Goa",
+    "country": "IN",
+    "region": "南亚",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 15.3,
+    "lng": 74.12,
+    "basis": "印度唯一海滩省，葡萄牙殖民遗迹，嬉皮风情",
+    "vibe": "果阿的海滩在葡萄牙教堂的影子下延伸，晚上的塔斗海滩有整个南亚最自由的派对，香料和椰奶把历史都煮成了当下",
+    "experiences": [
+      "巴加海滩",
+      "博姆耶稣大教堂",
+      "香料农场"
+    ],
+    "tags": [
+      "海滩",
+      "嬉皮",
+      "葡式"
+    ]
+  },
+  {
+    "name": "斋浦尔",
+    "name_en": "Jaipur",
+    "country": "IN",
+    "region": "南亚",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 26.91,
+    "lng": 75.79,
+    "basis": "粉红之城，拉贾斯坦邦皇室遗迹，宝石与手工艺",
+    "vibe": "整座城市涂成陶土粉红色迎接爱德华七世的驾临，此后它就再未换过颜色——琥珀堡的镜厅把一根蜡烛的光复制成了整片星空",
+    "experiences": [
+      "琥珀堡镜厅",
+      "风之宫殿",
+      "宝石市场"
+    ],
+    "tags": [
+      "粉红城",
+      "皇室",
+      "手工艺"
+    ]
+  },
+  {
+    "name": "乌代浦尔",
+    "name_en": "Udaipur",
+    "country": "IN",
+    "region": "南亚",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 24.58,
+    "lng": 73.68,
+    "basis": "湖中宫殿，拉贾斯坦最浪漫之城，白色大理石",
+    "vibe": "皮丘拉湖上的水中宫殿把拉贾斯坦的梦做到了极致，白色大理石的宫殿建筑群倒映在玫瑰色的晚霞里，这是世界上最浪漫的水上宫殿",
+    "experiences": [
+      "水中宫殿酒店",
+      "城市宫殿",
+      "皮丘拉湖游船"
+    ],
+    "tags": [
+      "湖泊",
+      "宫殿",
+      "浪漫"
+    ]
+  },
+  {
+    "name": "琅勃拉邦",
+    "name_en": "Luang Prabang",
+    "country": "LA",
+    "region": "东南亚",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 19.89,
+    "lng": 102.14,
+    "basis": "湄公河边的佛教圣城，法式殖民遗迹，布施文化",
+    "vibe": "每天清晨橙色的僧袍队伍静默地穿过街道，信众跪地布施，连呼吸都小心翼翼——这是东南亚保存最完好的神圣宁静",
+    "experiences": [
+      "清晨布施仪式",
+      "光西瀑布",
+      "夜市"
+    ],
+    "tags": [
+      "佛教",
+      "布施",
+      "宁静"
+    ]
+  },
+  {
+    "name": "冲绳",
+    "name_en": "Okinawa",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 26.21,
+    "lng": 127.68,
+    "basis": "琉球王国遗迹，珊瑚礁海洋，独立文化与长寿秘密",
+    "vibe": "珊瑚礁把海水染成梦幻的翡翠色，首里城的红瓦讲述着琉球王国的独立历史，百岁老人的秘密藏在苦瓜和海盐里",
+    "experiences": [
+      "首里城",
+      "美丽海水族馆",
+      "古宇利岛海滩"
+    ],
+    "tags": [
+      "琉球",
+      "珊瑚礁",
+      "长寿"
+    ]
+  },
+  {
+    "name": "札幌",
+    "name_en": "Sapporo",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 43.06,
+    "lng": 141.35,
+    "basis": "北海道之心，雪祭，新鲜乳制品与滑雪天堂",
+    "vibe": "雪祭的冰雕把北海道的严寒变成了艺术节，狸小路的拉面店里热气蒸腾，从这里出发去任何滑雪场都不超过一小时",
+    "experiences": [
+      "雪祭冰雕",
+      "狸小路美食",
+      "二世谷滑雪"
+    ],
+    "tags": [
+      "雪祭",
+      "滑雪",
+      "海鲜"
+    ]
+  },
+  {
+    "name": "福冈",
+    "name_en": "Fukuoka",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 33.59,
+    "lng": 130.4,
+    "basis": "九州门户，拉面发源地，海鲜之都，屋台文化",
+    "vibe": "中洲的屋台在夜雨中亮着暖光，那珂川两岸把博多的热闹与那珂的文雅隔开，一碗豚骨拉面是这座城市最诚实的自我介绍",
+    "experiences": [
+      "屋台拉面体验",
+      "太宰府天满宫",
+      "博多祗园山笠"
+    ],
+    "tags": [
+      "拉面",
+      "屋台",
+      "九州"
+    ]
+  },
+  {
+    "name": "广岛",
+    "name_en": "Hiroshima",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 34.39,
+    "lng": 132.45,
+    "basis": "原爆遗址，和平之城，从废墟中重建的人类反思",
+    "vibe": "原爆穹顶的倒影永远地浮在元安川上，和平纪念公园里的纸鹤年年新叠——广岛把人类最深的伤口变成了最坚定的和平宣言",
+    "experiences": [
+      "原爆和平纪念公园",
+      "严岛神社",
+      "宫岛牡蛎"
+    ],
+    "tags": [
+      "和平",
+      "原爆",
+      "历史"
+    ]
+  },
+  {
+    "name": "镰仓",
+    "name_en": "Kamakura",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "木",
+    "secondary_element": "土",
+    "lat": 35.32,
+    "lng": 139.55,
+    "basis": "幕府古都，镰仓大佛，海边的禅意与古刹",
+    "vibe": "大佛端坐在绿树间俯瞰太平洋，湘南海岸的冲浪少年与千年古刹朝夕相对，江之岛电车摇摇晃晃穿过日本最美的海岸线",
+    "experiences": [
+      "镰仓大佛",
+      "小町通商店街",
+      "江之岛电车"
+    ],
+    "tags": [
+      "古都",
+      "大佛",
+      "海岸"
+    ]
+  },
+  {
+    "name": "金泽",
+    "name_en": "Kanazawa",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "金",
+    "secondary_element": "木",
+    "lat": 36.57,
+    "lng": 136.65,
+    "basis": "加贺百万石，兼六园三大名园，工艺美术之都",
+    "vibe": "兼六园的雪吊把冬天变成了一幅精密的美术装置，东茶屋街的金箔工艺把时间镀成了金色，这是日本最低调的文化宝藏",
+    "experiences": [
+      "兼六园",
+      "东茶屋街",
+      "金泽21世纪美术馆"
+    ],
+    "tags": [
+      "工艺",
+      "名园",
+      "文化"
+    ]
+  },
+  {
+    "name": "釜山",
+    "name_en": "Busan",
+    "country": "KR",
+    "region": "韩国",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 35.1,
+    "lng": 129.04,
+    "basis": "韩国最大港口，海鲜之都，甘川文化村彩色山城",
+    "vibe": "甘川文化村的彩色房子层叠在山上，海云台的海浪每年夏天将整个韩国卷来，广安里大桥的夜灯把海湾变成了霓虹长河",
+    "experiences": [
+      "甘川文化村",
+      "海云台海滩",
+      "扎嘎其海鲜市场"
+    ],
+    "tags": [
+      "港口",
+      "海鲜",
+      "彩色村"
+    ]
+  },
+  {
+    "name": "庆州",
+    "name_en": "Gyeongju",
+    "country": "KR",
+    "region": "韩国",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 35.85,
+    "lng": 129.22,
+    "basis": "新罗王朝古都，露天博物馆，千年古墓与佛国寺",
+    "vibe": "大陵苑的古墓草丘在春樱下安眠，佛国寺的石塔经历了一千三百年的风雨，骑车穿过慶州就是穿越新罗王国的历史长廊",
+    "experiences": [
+      "佛国寺",
+      "石窟庵",
+      "大陵苑古墓"
+    ],
+    "tags": [
+      "新罗",
+      "古都",
+      "佛教"
+    ]
+  },
+  {
+    "name": "全州",
+    "name_en": "Jeonju",
+    "country": "KR",
+    "region": "韩国",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 35.82,
+    "lng": 127.15,
+    "basis": "韩国传统文化首都，韩屋村，拌饭发源地",
+    "vibe": "全州韩屋村的瓦顶在晨雾中起伏，厨房里传来拌饭石锅的滋滋声，这里是朝鲜王朝的食物记忆和建筑记忆最完整的地方",
+    "experiences": [
+      "全州韩屋村",
+      "拌饭体验",
+      "韩纸工坊"
+    ],
+    "tags": [
+      "韩屋",
+      "拌饭",
+      "传统"
+    ]
+  },
+  {
+    "name": "平泉",
+    "name_en": "Hiraizumi",
+    "country": "JP",
+    "region": "日本",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 38.99,
+    "lng": 141.11,
+    "basis": "奥州藤原氏净土思想遗迹，中尊寺金色堂，世界遗产",
+    "vibe": "中尊寺金色堂把整座建筑包裹在金箔之内，试图在人间再造净土，奥州藤原氏的黄金梦在北上川旁留下了它最后的形状",
+    "experiences": [
+      "中尊寺金色堂",
+      "毛越寺净土庭园",
+      "达谷窟毗沙门堂"
+    ],
+    "tags": [
+      "净土",
+      "金色堂",
+      "世界遗产"
+    ]
+  },
+  {
+    "name": "耶路撒冷",
+    "name_en": "Jerusalem",
+    "country": "IL",
+    "region": "中东",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 31.77,
+    "lng": 35.22,
+    "basis": "三大宗教圣城，人类信仰最密集之地，历史伤痕最深",
+    "vibe": "哭墙的每条石缝里塞满了人类的祈祷，圣墓教堂的香烟与清真寺的呼唤声交织在同一片天空——这是世界上最沉重也最神圣的地方",
+    "experiences": [
+      "西墙/哭墙",
+      "橄榄山日出",
+      "圣墓教堂"
+    ],
+    "tags": [
+      "圣城",
+      "三教",
+      "信仰"
+    ]
+  },
+  {
+    "name": "多哈",
+    "name_en": "Doha",
+    "country": "QA",
+    "region": "中东",
+    "primary_element": "金",
+    "secondary_element": "火",
+    "lat": 25.29,
+    "lng": 51.53,
+    "basis": "卡塔尔首都，世界杯之城，沙漠中的超现实摩天楼群",
+    "vibe": "西湾的摩天楼从沙漠里拔地而起，伊斯兰艺术博物馆把沙漠的沉默打包进一座建筑，这是石油把一片沙滩变成未来的故事",
+    "experiences": [
+      "西湾天际线",
+      "伊斯兰艺术博物馆",
+      "苏克瓦基夫传统市场"
+    ],
+    "tags": [
+      "摩天楼",
+      "石油",
+      "世界杯"
+    ]
+  },
+  {
+    "name": "阿布扎比",
+    "name_en": "Abu Dhabi",
+    "country": "AE",
+    "region": "中东",
+    "primary_element": "金",
+    "secondary_element": "土",
+    "lat": 24.47,
+    "lng": 54.37,
+    "basis": "阿联酋首都，谢赫扎耶德大清真寺，石油财富与信仰",
+    "vibe": "谢赫扎耶德大清真寺的白色穹顶在波斯湾蓝天下洁净如雪，八十二个圆顶与一千座柱子织成了人间最精美的宗教建筑",
+    "experiences": [
+      "谢赫扎耶德大清真寺",
+      "卢浮宫阿布扎比",
+      "法拉利世界"
+    ],
+    "tags": [
+      "清真寺",
+      "奢华",
+      "石油"
+    ]
+  },
+  {
+    "name": "卢克索",
+    "name_en": "Luxor",
+    "country": "EG",
+    "region": "非洲",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 25.7,
+    "lng": 32.65,
+    "basis": "古埃及底比斯遗址，露天最大古迹博物馆，法老之都",
+    "vibe": "卡纳克神庙的巨柱在黄昏中投下千年阴影，帝王谷的每座陵墓都是一部通往来世的教科书，尼罗河把这一切倒映在金色河面上",
+    "experiences": [
+      "卡纳克神庙",
+      "帝王谷",
+      "热气球俯瞰尼罗河"
+    ],
+    "tags": [
+      "法老",
+      "神庙",
+      "古埃及"
+    ]
+  },
+  {
+    "name": "马拉喀什",
+    "name_en": "Marrakech",
+    "country": "MA",
+    "region": "非洲",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 31.63,
+    "lng": -7.99,
+    "basis": "红色之城，北非最热闹的集市广场，沙漠与绿洲",
+    "vibe": "吉马·埃勒夫纳广场在黄昏时分同时燃起百个炉火，蛇舞者的笛声与杂技叫卖声在沙漠热风里纠缠，这是非洲最炙热的感官盛宴",
+    "experiences": [
+      "吉马·埃勒夫纳广场",
+      "麦地那迷宫",
+      "撒哈拉沙漠一日游"
+    ],
+    "tags": [
+      "红城",
+      "集市",
+      "沙漠"
+    ]
+  },
+  {
+    "name": "开普敦",
+    "name_en": "Cape Town",
+    "country": "ZA",
+    "region": "非洲",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": -33.93,
+    "lng": 18.42,
+    "basis": "好望角之城，桌山俯瞰两洋，南非彩虹文化",
+    "vibe": "桌山从云雾中露出平顶，一边是大西洋一边是印度洋，博卡普彩色街区的房子像是把南非多元的灵魂用颜料表达了出来",
+    "experiences": [
+      "桌山缆车",
+      "好望角",
+      "博卡普彩色街区"
+    ],
+    "tags": [
+      "桌山",
+      "两洋交汇",
+      "彩虹"
+    ]
+  },
+  {
+    "name": "桑给巴尔",
+    "name_en": "Zanzibar",
+    "country": "TZ",
+    "region": "非洲",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": -6.17,
+    "lng": 39.2,
+    "basis": "香料岛，印度洋贸易中心，阿拉伯与非洲文化交融",
+    "vibe": "石头城的珊瑚石迷宫里飘着丁香和肉桂的气息，桑给巴尔的海水是那种让人不敢相信真实的绿松石色，日落时分一切都变成了金色",
+    "experiences": [
+      "石头城迷宫",
+      "丁香农场",
+      "内乌格维海滩"
+    ],
+    "tags": [
+      "香料岛",
+      "印度洋",
+      "珊瑚"
+    ]
+  },
+  {
+    "name": "内罗毕",
+    "name_en": "Nairobi",
+    "country": "KE",
+    "region": "非洲",
+    "primary_element": "木",
+    "secondary_element": "火",
+    "lat": -1.29,
+    "lng": 36.82,
+    "basis": "非洲硅谷，城市边缘即野生动物公园，肯尼亚门户",
+    "vibe": "世界上唯一一座能在城市里看见长颈鹿的首都，内罗毕国家公园的野生动物在摩天楼背景下漫步，这是地球上最超现实的城市风景",
+    "experiences": [
+      "内罗毕国家公园",
+      "长颈鹿中心",
+      "马赛马拉出发地"
+    ],
+    "tags": [
+      "野生动物",
+      "非洲硅谷",
+      "马赛"
+    ]
+  },
+  {
+    "name": "突尼斯城",
+    "name_en": "Tunis",
+    "country": "TN",
+    "region": "非洲",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 36.82,
+    "lng": 10.17,
+    "basis": "迦太基文明继承者，阿拉伯麦地那，地中海古文明",
+    "vibe": "突尼斯麦地那的蓝白色门洞是北非最上镜的秘密，迦太基遗址的废墟在突尼斯湾边沉默，这里是腓尼基人在地中海留下的最后低语",
+    "experiences": [
+      "突尼斯麦地那",
+      "迦太基古城遗址",
+      "西迪布赛义德蓝白小镇"
+    ],
+    "tags": [
+      "迦太基",
+      "麦地那",
+      "地中海"
+    ]
+  },
+  {
+    "name": "卡萨布兰卡",
+    "name_en": "Casablanca",
+    "country": "MA",
+    "region": "非洲",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 33.59,
+    "lng": -7.62,
+    "basis": "摩洛哥经济首都，哈桑二世清真寺立于大西洋上",
+    "vibe": "哈桑二世清真寺将一座宣礼塔插入大西洋上空，信徒在大西洋的波涛声中礼拜，这是北非最宏大的现代宗教建筑奇迹",
+    "experiences": [
+      "哈桑二世清真寺",
+      "里卡咖啡馆",
+      "科尔尼什海滨大道"
+    ],
+    "tags": [
+      "清真寺",
+      "港口",
+      "大西洋"
+    ]
+  },
+  {
+    "name": "芝加哥",
+    "name_en": "Chicago",
+    "country": "US",
+    "region": "北美",
+    "primary_element": "金",
+    "secondary_element": "火",
+    "lat": 41.88,
+    "lng": -87.63,
+    "basis": "钢铁建筑之都，蓝调音乐发源地",
+    "vibe": "摩天楼群像钢琴键排开在密歇根湖边，风从楼间穿过自带节拍。深夜蓝调酒吧里萨克斯吹出的每个音符，都被这座城市的钢骨架震得更响亮。",
+    "experiences": [
+      "千禧公园云门",
+      "建筑游船",
+      "深盘披萨"
+    ],
+    "tags": [
+      "建筑",
+      "蓝调",
+      "湖滨"
+    ]
+  },
+  {
+    "name": "波士顿",
+    "name_en": "Boston",
+    "country": "US",
+    "region": "北美",
+    "primary_element": "木",
+    "secondary_element": "金",
+    "lat": 42.36,
+    "lng": -71.06,
+    "basis": "哈佛MIT学府之城，知识生长之地",
+    "vibe": "查尔斯河边跑步的人里可能有诺奖得主，哈佛广场的旧书店比图书馆更有灵魂。秋天枫叶红透整条自由之路，连砖墙都在讲两百年前的故事。",
+    "experiences": [
+      "自由之路",
+      "哈佛校园",
+      "龙虾卷"
+    ],
+    "tags": [
+      "学府",
+      "历史",
+      "秋叶"
+    ]
+  },
+  {
+    "name": "迈阿密",
+    "name_en": "Miami",
+    "country": "US",
+    "region": "北美",
+    "primary_element": "火",
+    "secondary_element": "水",
+    "lat": 25.76,
+    "lng": -80.19,
+    "basis": "拉丁热情与海滩派对之城",
+    "vibe": "南海滩的霓虹映在湿漉漉的棕榈叶上，小哈瓦那的咖啡浓得能让时间变慢。这座城市白天属于海浪，夜晚属于雷鬼顿。",
+    "experiences": [
+      "南海滩",
+      "小哈瓦那",
+      "温伍德涂鸦墙"
+    ],
+    "tags": [
+      "海滩",
+      "拉丁",
+      "夜店"
+    ]
+  },
+  {
+    "name": "夏威夷",
+    "name_en": "Hawaii",
+    "country": "US",
+    "region": "北美",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 21.31,
+    "lng": -157.86,
+    "basis": "太平洋中的火山海岛，水火交融",
+    "vibe": "基拉韦厄的岩浆入海时嘶嘶作响，转头就是威基基的碧蓝温柔。花环套上脖子那一刻，你知道这里的aloha不是客套，是一种活法。",
+    "experiences": [
+      "威基基冲浪",
+      "火山国家公园",
+      "观星"
+    ],
+    "tags": [
+      "海岛",
+      "火山",
+      "aloha"
+    ]
+  },
+  {
+    "name": "新奥尔良",
+    "name_en": "New Orleans",
+    "country": "US",
+    "region": "北美",
+    "primary_element": "火",
+    "secondary_element": "水",
+    "lat": 29.95,
+    "lng": -90.07,
+    "basis": "爵士乐发源地，法式热情与南方灵魂",
+    "vibe": "波旁街的号角声从不停歇，秋葵浓汤的香味能穿过三条街。这座城市把葬礼都办成派对，教你什么叫用力活着。",
+    "experiences": [
+      "法国区",
+      "爵士乐现场",
+      "克里奥尔美食"
+    ],
+    "tags": [
+      "爵士",
+      "美食",
+      "灵魂"
+    ]
+  },
+  {
+    "name": "华盛顿",
+    "name_en": "Washington D.C.",
+    "country": "US",
+    "region": "北美",
+    "primary_element": "土",
+    "secondary_element": "金",
+    "lat": 38.91,
+    "lng": -77.04,
+    "basis": "美国首都，权力与纪念碑之城",
+    "vibe": "林肯纪念堂的台阶上坐满了从世界各地来的人，都在想同一个问题。樱花季整条潮汐湖变成粉色的云，连政治都变温柔了。",
+    "experiences": [
+      "国家广场",
+      "史密森尼",
+      "樱花季"
+    ],
+    "tags": [
+      "首都",
+      "博物馆",
+      "樱花"
+    ]
+  },
+  {
+    "name": "哈瓦那",
+    "name_en": "Havana",
+    "country": "CU",
+    "region": "北美",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 23.11,
+    "lng": -82.37,
+    "basis": "时间冻结的革命之城，老爷车与雪茄",
+    "vibe": "1957年的别克漆成粉红色还在街上跑，马雷贡海堤上的吉他声被海风切成碎片。这里的时钟在某个下午停了，但没人在意。",
+    "experiences": [
+      "老城漫步",
+      "雪茄工厂",
+      "马雷贡日落"
+    ],
+    "tags": [
+      "复古",
+      "雪茄",
+      "拉丁"
+    ]
+  },
+  {
+    "name": "坎昆",
+    "name_en": "Cancun",
+    "country": "MX",
+    "region": "北美",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 21.16,
+    "lng": -86.85,
+    "basis": "加勒比海碧蓝，玛雅遗址与度假天堂",
+    "vibe": "加勒比海的蓝不是一种颜色，是七种。奇琴伊察的石阶在正午投下羽蛇的影子，而你在沙滩椅上刚打开第二瓶科罗娜。",
+    "experiences": [
+      "奇琴伊察",
+      "水下博物馆",
+      "蓝色海滩"
+    ],
+    "tags": [
+      "加勒比",
+      "玛雅",
+      "度假"
+    ]
+  },
+  {
+    "name": "布宜诺斯艾利斯",
+    "name_en": "Buenos Aires",
+    "country": "AR",
+    "region": "南美",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": -34.6,
+    "lng": -58.38,
+    "basis": "探戈之都，南美的巴黎",
+    "vibe": "博卡区的彩色铁皮房子像调色盘打翻，街角的探戈舞者用脚步声说完了一整个爱情故事。牛排要三分熟，红酒要马尔贝克。",
+    "experiences": [
+      "探戈表演",
+      "博卡区",
+      "烤肉盛宴"
+    ],
+    "tags": [
+      "探戈",
+      "牛排",
+      "文艺"
+    ]
+  },
+  {
+    "name": "圣地亚哥",
+    "name_en": "Santiago",
+    "country": "CL",
+    "region": "南美",
+    "primary_element": "金",
+    "secondary_element": "土",
+    "lat": -33.45,
+    "lng": -70.67,
+    "basis": "安第斯山脚的有序之城，智利经济中心",
+    "vibe": "从城市任何角落抬头都能看到雪山，拉斯塔利亚的咖啡馆里聊的是诗和葡萄酒。中央市场的海鲜新鲜到能听见海的声音。",
+    "experiences": [
+      "圣卢西亚山",
+      "中央市场",
+      "葡萄酒庄"
+    ],
+    "tags": [
+      "雪山",
+      "葡萄酒",
+      "秩序"
+    ]
+  },
+  {
+    "name": "利马",
+    "name_en": "Lima",
+    "country": "PE",
+    "region": "南美",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": -12.05,
+    "lng": -77.04,
+    "basis": "印加与西班牙文明交汇，南美美食之都",
+    "vibe": "米拉弗洛雷斯的悬崖上滑翔伞飞过太平洋的雾，老城的殖民建筑黄得像秘鲁的太阳。酸橘汁腌鱼的酸辣在舌尖炸开的瞬间，你懂了。",
+    "experiences": [
+      "酸橘汁腌鱼",
+      "老城广场",
+      "拉尔科博物馆"
+    ],
+    "tags": [
+      "美食",
+      "殖民",
+      "悬崖"
+    ]
+  },
+  {
+    "name": "蒙特利尔",
+    "name_en": "Montreal",
+    "country": "CA",
+    "region": "北美",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 45.5,
+    "lng": -73.57,
+    "basis": "北美小巴黎，法语文化与创意之城",
+    "vibe": "圣劳伦斯河的雾气裹着法语从老港飘过来，皇家山上的十字架在夜里亮着像一颗钉在天上的星。百吉饼要趁热，枫糖浆要直接浇在雪上吃。",
+    "experiences": [
+      "老港",
+      "皇家山",
+      "蒙特利尔百吉饼"
+    ],
+    "tags": [
+      "法语",
+      "创意",
+      "枫糖"
+    ]
+  },
+  {
+    "name": "麦德林",
+    "name_en": "Medellin",
+    "country": "CO",
+    "region": "南美",
+    "primary_element": "木",
+    "secondary_element": "火",
+    "lat": 6.25,
+    "lng": -75.56,
+    "basis": "春城重生，从暗黑到创新之城的逆袭",
+    "vibe": "缆车从山谷升起时整座城市像一盘棋局，常春花在每个阳台上开得放肆。这座城市从废墟里长出来的样子，本身就是最好的旅行理由。",
+    "experiences": [
+      "缆车观城",
+      "公社13涂鸦",
+      "花节"
+    ],
+    "tags": [
+      "重生",
+      "春城",
+      "缆车"
+    ]
+  },
+  {
+    "name": "墨尔本",
+    "name_en": "Melbourne",
+    "country": "AU",
+    "region": "大洋洲",
+    "primary_element": "金",
+    "secondary_element": "木",
+    "lat": -37.81,
+    "lng": 144.96,
+    "basis": "澳洲文化之都，咖啡与艺术的精致",
+    "vibe": "小巷子里的涂鸦比美术馆更诚实，每个街角都藏着一家不挂招牌的咖啡馆。这座城市把叛逆做得很精致，连下雨都有腔调。",
+    "experiences": [
+      "涂鸦巷",
+      "咖啡文化",
+      "大洋路"
+    ],
+    "tags": [
+      "咖啡",
+      "涂鸦",
+      "精致"
+    ]
+  },
+  {
+    "name": "奥克兰",
+    "name_en": "Auckland",
+    "country": "NZ",
+    "region": "大洋洲",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": -36.85,
+    "lng": 174.76,
+    "basis": "千帆之都，海港与火山共存",
+    "vibe": "从天空塔看下去帆船像白色的逗号撒满海面，开车半小时就能从城市扎进原始森林。毛利人的碰鼻礼比任何握手都暖。",
+    "experiences": [
+      "天空塔",
+      "怀赫科岛",
+      "毛利文化"
+    ],
+    "tags": [
+      "帆船",
+      "火山",
+      "毛利"
+    ]
+  },
+  {
+    "name": "皇后镇",
+    "name_en": "Queenstown",
+    "country": "NZ",
+    "region": "大洋洲",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": -45.03,
+    "lng": 168.66,
+    "basis": "极限运动之都，瓦卡蒂普湖的冷冽纯净",
+    "vibe": "从一万五千英尺跳下去的那几秒，瓦卡蒂普湖蓝得不像真的。傍晚在湖边喝杯黑皮诺，卓越山的雪线变成玫瑰金，你觉得值了。",
+    "experiences": [
+      "蹦极",
+      "米尔福德峡湾",
+      "湖边品酒"
+    ],
+    "tags": [
+      "极限",
+      "湖泊",
+      "纯净"
+    ]
+  },
+  {
+    "name": "斐济",
+    "name_en": "Fiji",
+    "country": "FJ",
+    "region": "大洋洲",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": -17.71,
+    "lng": 177.99,
+    "basis": "南太平洋的微笑群岛",
+    "vibe": "Bula的问候比阳光更先到，珊瑚礁把海水分成十二种蓝。赤脚走在白沙上的感觉不是度假，是忘记了鞋子这个概念。",
+    "experiences": [
+      "浮潜",
+      "村庄拜访",
+      "日落巡航"
+    ],
+    "tags": [
+      "海岛",
+      "微笑",
+      "纯净"
+    ]
+  },
+  {
+    "name": "大溪地",
+    "name_en": "Tahiti",
+    "country": "PF",
+    "region": "大洋洲",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": -17.53,
+    "lng": -149.57,
+    "basis": "高更的天堂，南太平洋最后的净土",
+    "vibe": "水上屋下面的鱼比你家鱼缸里的更不怕人，波拉波拉的泻湖蓝到让人失语。高更来了就不想走，你来了会理解他。",
+    "experiences": [
+      "波拉波拉泻湖",
+      "黑珍珠",
+      "独木舟日落"
+    ],
+    "tags": [
+      "天堂",
+      "泻湖",
+      "高更"
+    ]
+  },
+  {
+    "name": "海口",
+    "name_en": "Haikou",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 20.02,
+    "lng": 110.35,
+    "basis": "椰城热带风情，海南自贸港门户",
+    "vibe": "骑楼老街的南洋味道从斑驳的窗花里渗出来，椰子鸡汤甜得像海口的冬天。这里的慢不是懒，是热带教会人的节奏。",
+    "experiences": [
+      "骑楼老街",
+      "假日海滩",
+      "火山口地质公园"
+    ],
+    "tags": [
+      "椰城",
+      "南洋",
+      "自贸港"
+    ]
+  },
+  {
+    "name": "南宁",
+    "name_en": "Nanning",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 22.82,
+    "lng": 108.32,
+    "basis": "绿城半城绿树，东盟门户",
+    "vibe": "邕江边的凤凰树开得像一条火焰隧道，中山路的老友粉汤底熬了二十年没换过。这座城把东南亚的味道和广西的山水揉在了一起。",
+    "experiences": [
+      "青秀山",
+      "中山路夜市",
+      "德天瀑布"
+    ],
+    "tags": [
+      "绿城",
+      "东盟",
+      "米粉"
+    ]
+  },
+  {
+    "name": "无锡",
+    "name_en": "Wuxi",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 31.49,
+    "lng": 120.31,
+    "basis": "太湖明珠，工商业与山水兼得",
+    "vibe": "鼋头渚的樱花落在太湖里，每一瓣都变成一条粉色的小船。南长街的馄饨皮薄到能看见馅，这座城市的精致藏在细节里。",
+    "experiences": [
+      "鼋头渚",
+      "灵山大佛",
+      "南长街"
+    ],
+    "tags": [
+      "太湖",
+      "樱花",
+      "精致"
+    ]
+  },
+  {
+    "name": "烟台",
+    "name_en": "Yantai",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "水",
+    "secondary_element": "金",
+    "lat": 37.46,
+    "lng": 121.45,
+    "basis": "葡萄酒海岸，仙境蓬莱",
+    "vibe": "蓬莱阁上真的会起雾，像有人在海面上铺了一层纱。张裕酒窖里的橡木桶味道混着海风，你举杯的方向就是海市蜃楼出没的地方。",
+    "experiences": [
+      "蓬莱阁",
+      "张裕酒庄",
+      "养马岛"
+    ],
+    "tags": [
+      "仙境",
+      "葡萄酒",
+      "海滨"
+    ]
+  },
+  {
+    "name": "秦皇岛",
+    "name_en": "Qinhuangdao",
+    "country": "CN",
+    "region": "华北",
+    "primary_element": "水",
+    "secondary_element": "土",
+    "lat": 39.93,
+    "lng": 119.6,
+    "basis": "长城入海处，避暑胜地",
+    "vibe": "老龙头的长城一头扎进渤海，这是秦始皇都想看的风景。北戴河的海风吹了一百年，换了一拨又一拨来疗养的人。",
+    "experiences": [
+      "山海关",
+      "北戴河",
+      "阿那亚"
+    ],
+    "tags": [
+      "长城",
+      "海滨",
+      "避暑"
+    ]
+  },
+  {
+    "name": "银川",
+    "name_en": "Yinchuan",
+    "country": "CN",
+    "region": "西北",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 38.49,
+    "lng": 106.23,
+    "basis": "塞上江南，西夏王朝故地",
+    "vibe": "贺兰山岩画刻了三千年还在等人来读，镇北堡影城的黄土墙上写满了周星驰的台词。羊肉泡在黄河水煮的汤里，是大西北最温柔的味道。",
+    "experiences": [
+      "西夏王陵",
+      "镇北堡",
+      "贺兰山岩画"
+    ],
+    "tags": [
+      "西夏",
+      "塞上",
+      "羊肉"
+    ]
+  },
+  {
+    "name": "中卫",
+    "name_en": "Zhongwei",
+    "country": "CN",
+    "region": "西北",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 37.5,
+    "lng": 105.2,
+    "basis": "沙漠与黄河握手的地方",
+    "vibe": "腾格里沙漠的星空低到伸手能摘，黄河在沙坡头拐了个弯像在回头看你。沙漠里的民宿比城市的五星级更安静，连WiFi信号都懒得来。",
+    "experiences": [
+      "沙坡头",
+      "腾格里露营",
+      "黄河漂流"
+    ],
+    "tags": [
+      "沙漠",
+      "星空",
+      "黄河"
+    ]
+  },
+  {
+    "name": "腾冲",
+    "name_en": "Tengchong",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "火",
+    "secondary_element": "木",
+    "lat": 25.02,
+    "lng": 98.49,
+    "basis": "火山温泉之城，滇西抗战重镇",
+    "vibe": "热海的温泉从地底冒出来时带着硫磺的脾气，银杏村的秋天把整个村子泡进金色的染缸。和顺古镇的雨落在石板上，能听出马帮走过的节奏。",
+    "experiences": [
+      "热海温泉",
+      "银杏村",
+      "和顺古镇"
+    ],
+    "tags": [
+      "火山",
+      "温泉",
+      "银杏"
+    ]
+  },
+  {
+    "name": "稻城",
+    "name_en": "Daocheng",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 29.04,
+    "lng": 100.3,
+    "basis": "最后的香格里拉，三神山圣地",
+    "vibe": "亚丁三神山的雪在阳光下白得刺眼，牛奶海蓝到让人怀疑是PS。海拔四千米喘不上气的时候你会想，值了。",
+    "experiences": [
+      "亚丁徒步",
+      "牛奶海",
+      "红草地"
+    ],
+    "tags": [
+      "雪山",
+      "徒步",
+      "朝圣"
+    ]
+  },
+  {
+    "name": "色达",
+    "name_en": "Sertar",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 32.27,
+    "lng": 100.33,
+    "basis": "万间红房子的佛国之城",
+    "vibe": "五明佛学院的红房子从山谷铺到山顶，远看像一片燃烧的海。天葬台的鹰在头顶盘旋时，你会突然理解什么叫放下。",
+    "experiences": [
+      "五明佛学院",
+      "天葬台",
+      "转山"
+    ],
+    "tags": [
+      "佛学",
+      "红房子",
+      "信仰"
+    ]
+  },
+  {
+    "name": "甘南",
+    "name_en": "Gannan",
+    "country": "CN",
+    "region": "西北",
+    "primary_element": "木",
+    "secondary_element": "土",
+    "lat": 34.98,
+    "lng": 102.91,
+    "basis": "九色甘南，藏传佛教与草原交融",
+    "vibe": "拉卜楞寺的转经长廊走一圈要四十分钟，桑科草原上的牦牛比人多一百倍。酥油茶的咸在嘴里化开时，你知道这里离天堂比离城市更近。",
+    "experiences": [
+      "拉卜楞寺",
+      "桑科草原",
+      "扎尕那"
+    ],
+    "tags": [
+      "藏传",
+      "草原",
+      "秘境"
+    ]
+  },
+  {
+    "name": "莫干山",
+    "name_en": "Moganshan",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "木",
+    "secondary_element": "金",
+    "lat": 30.63,
+    "lng": 119.87,
+    "basis": "竹海民宿之都，长三角后花园",
+    "vibe": "竹林里的民宿比竹子还多，推开窗户撞进来的是山雾和鸟叫。这里的咖啡和山泉水一个价，但你喝的其实是安静。",
+    "experiences": [
+      "精品民宿",
+      "竹林徒步",
+      "裸心谷"
+    ],
+    "tags": [
+      "民宿",
+      "竹海",
+      "逃城"
+    ]
+  },
+  {
+    "name": "景德镇",
+    "name_en": "Jingdezhen",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "火",
+    "secondary_element": "土",
+    "lat": 29.27,
+    "lng": 117.18,
+    "basis": "千年瓷都，窑火不灭",
+    "vibe": "三宝村的陶艺工作室比人还安静，你的手在拉坯机上转出的第一个碗歪歪扭扭但独一无二。古窑的柴烧温度够高，足以把迷茫也烧成釉色。",
+    "experiences": [
+      "陶艺体验",
+      "三宝村",
+      "御窑博物馆"
+    ],
+    "tags": [
+      "陶瓷",
+      "手作",
+      "窑火"
+    ]
+  },
+  {
+    "name": "婺源",
+    "name_en": "Wuyuan",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "木",
+    "secondary_element": "土",
+    "lat": 29.25,
+    "lng": 117.86,
+    "basis": "中国最美乡村，油菜花与徽派建筑",
+    "vibe": "三月的油菜花把整个山谷灌满金色，篁岭晒秋时檐上的辣椒红得像在烧。马头墙和水口林之间，住着中国乡村最后的诗意。",
+    "experiences": [
+      "篁岭晒秋",
+      "油菜花",
+      "李坑古村"
+    ],
+    "tags": [
+      "油菜花",
+      "徽派",
+      "乡村"
+    ]
+  },
+  {
+    "name": "黄山市",
+    "name_en": "Huangshan",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 29.71,
+    "lng": 118.34,
+    "basis": "黄山归来不看岳，云海松石奇观",
+    "vibe": "日出时云海从山谷里翻滚上来，迎客松在悬崖边站了一千年表情没变过。下山后的毛豆腐臭得刚刚好，配一壶太平猴魁，脚酸也值了。",
+    "experiences": [
+      "黄山日出",
+      "宏村",
+      "毛豆腐"
+    ],
+    "tags": [
+      "云海",
+      "奇松",
+      "水墨"
+    ]
+  },
+  {
+    "name": "峨眉山",
+    "name_en": "Mount Emei",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "木",
+    "secondary_element": "金",
+    "lat": 29.6,
+    "lng": 103.44,
+    "basis": "佛教四大名山，金顶佛光",
+    "vibe": "金顶的十方普贤在云端坐着，佛光圈在云海上画了一个彩虹。猴子比你先到的每一个景点，它抢你零食的样子像个地主。",
+    "experiences": [
+      "金顶日出",
+      "万年寺",
+      "泡温泉"
+    ],
+    "tags": [
+      "佛教",
+      "金顶",
+      "猴子"
+    ]
+  },
+  {
+    "name": "泰安",
+    "name_en": "Tai'an",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "土",
+    "secondary_element": "金",
+    "lat": 36.19,
+    "lng": 117.12,
+    "basis": "泰山脚下，五岳之首",
+    "vibe": "凌晨三点开始爬，六千多级台阶把腿抖成筛子，但日出从云缝里挤出来的那一刻你会喊出声。皇帝来这儿封禅，你来这儿证明自己还年轻。",
+    "experiences": [
+      "泰山日出",
+      "岱庙",
+      "十八盘"
+    ],
+    "tags": [
+      "五岳",
+      "日出",
+      "攀登"
+    ]
+  },
+  {
+    "name": "漠河",
+    "name_en": "Mohe",
+    "country": "CN",
+    "region": "东北",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 53.47,
+    "lng": 122.37,
+    "basis": "中国最北，极寒极光之地",
+    "vibe": "零下四十度泼出去的水变成冰雾还没落地，北极村的雪踩上去嘎吱响像在嚼糖。如果运气好能看到极光，运气不好看星星也够了。",
+    "experiences": [
+      "北极村",
+      "找北",
+      "泼水成冰"
+    ],
+    "tags": [
+      "最北",
+      "极寒",
+      "极光"
+    ]
+  },
+  {
+    "name": "延吉",
+    "name_en": "Yanji",
+    "country": "CN",
+    "region": "东北",
+    "primary_element": "火",
+    "secondary_element": "水",
+    "lat": 42.89,
+    "lng": 129.51,
+    "basis": "朝鲜族美食之都，东北小首尔",
+    "vibe": "冷面的汤冰到牙疼但停不下嘴，烤串的烟从延边大学一路飘到中朝边界。招牌上韩语和中文各占一半，你会恍惚觉得出了国。",
+    "experiences": [
+      "朝鲜族美食",
+      "防川一眼望三国",
+      "延边大学"
+    ],
+    "tags": [
+      "冷面",
+      "朝鲜族",
+      "边境"
+    ]
+  },
+  {
+    "name": "满洲里",
+    "name_en": "Manzhouli",
+    "country": "CN",
+    "region": "东北",
+    "primary_element": "土",
+    "secondary_element": "水",
+    "lat": 49.6,
+    "lng": 117.38,
+    "basis": "中俄蒙三国交界，草原上的童话城",
+    "vibe": "套娃广场的俄式建筑像闯进了童话，国门对面就是俄罗斯的铁轨。呼伦湖的日落把草原染成橘色，风把牛羊的铃声吹到你枕边。",
+    "experiences": [
+      "国门",
+      "套娃广场",
+      "呼伦湖"
+    ],
+    "tags": [
+      "边境",
+      "俄式",
+      "草原"
+    ]
+  },
+  {
+    "name": "喀什",
+    "name_en": "Kashgar",
+    "country": "CN",
+    "region": "西北",
+    "primary_element": "土",
+    "secondary_element": "火",
+    "lat": 39.47,
+    "lng": 75.99,
+    "basis": "丝路活化石，维吾尔文化中心",
+    "vibe": "艾提尕尔清真寺的晨光穿过拱门落在老城的黄土墙上，巴扎里的烤馕香能把你从任何烦恼里拽出来。这里的时间比北京慢两个小时，但没人着急。",
+    "experiences": [
+      "喀什老城",
+      "牲畜巴扎",
+      "帕米尔高原"
+    ],
+    "tags": [
+      "丝路",
+      "维吾尔",
+      "巴扎"
+    ]
+  },
+  {
+    "name": "伊犁",
+    "name_en": "Ili",
+    "country": "CN",
+    "region": "西北",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 43.92,
+    "lng": 81.32,
+    "basis": "塞外江南，薰衣草与草原",
+    "vibe": "那拉提草原绿到眼睛发酸，赛里木湖蓝到忘记眨眼。六月薰衣草花期整个河谷变成紫色的海，风一吹你就醉了。",
+    "experiences": [
+      "那拉提草原",
+      "赛里木湖",
+      "薰衣草田"
+    ],
+    "tags": [
+      "草原",
+      "薰衣草",
+      "塞外"
+    ]
+  },
+  {
+    "name": "阿尔山",
+    "name_en": "Arxan",
+    "country": "CN",
+    "region": "东北",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 47.18,
+    "lng": 119.94,
+    "basis": "大兴安岭腹地，温泉与火山湖",
+    "vibe": "阿尔山天池安静到能听见云在水面上走路，白桦林秋天黄成一幅油画。零下三十度的不冻河冒着仙气，鹿在路边看你像看游客——你确实是。",
+    "experiences": [
+      "阿尔山天池",
+      "白桦林",
+      "不冻河"
+    ],
+    "tags": [
+      "天池",
+      "白桦",
+      "秘境"
+    ]
+  },
+  {
+    "name": "荔波",
+    "name_en": "Libo",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 25.41,
+    "lng": 107.89,
+    "basis": "地球腰带上的绿宝石，喀斯特水世界",
+    "vibe": "小七孔的水绿到不讲道理，每一级瀑布都在表演什么叫层次感。卧龙潭静到你不敢说话，怕把水里的翡翠色震碎。",
+    "experiences": [
+      "小七孔",
+      "大七孔",
+      "茂兰原始森林"
+    ],
+    "tags": [
+      "喀斯特",
+      "瀑布",
+      "绿宝石"
+    ]
+  },
+  {
+    "name": "平遥",
+    "name_en": "Pingyao",
+    "country": "CN",
+    "region": "华北",
+    "primary_element": "土",
+    "secondary_element": "金",
+    "lat": 37.19,
+    "lng": 112.18,
+    "basis": "中国保存最完好的古城，晋商发源地",
+    "vibe": "城墙上走一圈要四十分钟，脚下的青砖被踩了两千年。日升昌的柜台后面站过中国最早的银行家，现在站着收门票的大姐。",
+    "experiences": [
+      "古城墙",
+      "日升昌票号",
+      "平遥牛肉"
+    ],
+    "tags": [
+      "古城",
+      "晋商",
+      "票号"
+    ]
+  },
+  {
+    "name": "阳朔",
+    "name_en": "Yangshuo",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 24.78,
+    "lng": 110.49,
+    "basis": "桂林山水甲天下，阳朔山水甲桂林",
+    "vibe": "遇龙河上竹筏划过时水声很轻，两岸的山像刚从水墨画里走出来还没干。西街的啤酒鱼和老外一样多，月亮山在哪个角度看都像在笑。",
+    "experiences": [
+      "遇龙河竹筏",
+      "十里画廊",
+      "攀岩"
+    ],
+    "tags": [
+      "山水",
+      "竹筏",
+      "西街"
+    ]
+  },
+  {
+    "name": "北海",
+    "name_en": "Beihai",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 21.48,
+    "lng": 109.12,
+    "basis": "南珠之乡，北部湾畔的温暖海滨",
+    "vibe": "银滩的沙白到踩上去以为在走棉花，老街的虾饼炸得金黄像缩小版的太阳。涠洲岛的香蕉林和火山岩是一对奇怪的搭配，但很配。",
+    "experiences": [
+      "银滩",
+      "涠洲岛",
+      "老街"
+    ],
+    "tags": [
+      "银滩",
+      "南珠",
+      "海鲜"
+    ]
+  },
+  {
+    "name": "涠洲岛",
+    "name_en": "Weizhou Island",
+    "country": "CN",
+    "region": "华南",
+    "primary_element": "水",
+    "secondary_element": "火",
+    "lat": 21.05,
+    "lng": 109.12,
+    "basis": "中国最年轻的火山岛",
+    "vibe": "鳄鱼山的火山岩被海水雕成蜂巢，天主教堂和珊瑚石房子挤在渔村里不违和。日出从海面弹起来的时候，岛上的公鸡比你先知道。",
+    "experiences": [
+      "鳄鱼山",
+      "五彩滩日出",
+      "海鲜烧烤"
+    ],
+    "tags": [
+      "火山",
+      "海岛",
+      "原生态"
+    ]
+  },
+  {
+    "name": "舟山",
+    "name_en": "Zhoushan",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "水",
+    "secondary_element": "土",
+    "lat": 30.01,
+    "lng": 122.11,
+    "basis": "海天佛国普陀山，千岛之城",
+    "vibe": "普陀山的钟声能穿过海雾到达任何你待过的地方，东极岛的日出是中国最早的。海鲜面里的虾比面条多，吃完嘴唇是咸的心是满的。",
+    "experiences": [
+      "普陀山",
+      "东极岛",
+      "海鲜"
+    ],
+    "tags": [
+      "佛国",
+      "海岛",
+      "渔港"
+    ]
+  },
+  {
+    "name": "千岛湖",
+    "name_en": "Qiandao Lake",
+    "country": "CN",
+    "region": "华东",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 29.6,
+    "lng": 118.94,
+    "basis": "一湖秀水千岛碧，人工湖泊的天然奇观",
+    "vibe": "一千零七十八个岛像绿色的纽扣撒在蓝绸子上，鱼头汤是用这湖水煮的所以特别鲜。清晨的雾让每个岛都像在水上漂着。",
+    "experiences": [
+      "环湖骑行",
+      "鱼头汤",
+      "水上运动"
+    ],
+    "tags": [
+      "千岛",
+      "骑行",
+      "鱼头"
+    ]
+  },
+  {
+    "name": "恩施",
+    "name_en": "Enshi",
+    "country": "CN",
+    "region": "华中",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 30.27,
+    "lng": 109.49,
+    "basis": "世界硒都，鄂西秘境",
+    "vibe": "屏山峡谷的水清到船漂在上面像悬浮，腾龙洞大到能装下一个云朵。土家吊脚楼歪歪扭扭地挂在山坡上，看着像要滑下去但一百年没动。",
+    "experiences": [
+      "屏山峡谷",
+      "腾龙洞",
+      "土家女儿城"
+    ],
+    "tags": [
+      "秘境",
+      "峡谷",
+      "土家"
+    ]
+  },
+  {
+    "name": "湘西",
+    "name_en": "Xiangxi",
+    "country": "CN",
+    "region": "华中",
+    "primary_element": "木",
+    "secondary_element": "水",
+    "lat": 28.31,
+    "lng": 109.74,
+    "basis": "沈从文的边城，苗疆秘境",
+    "vibe": "矮寨大桥悬在德夯峡谷上面像一条飘带，苗寨的银饰在火塘边叮当响。赶集日看到穿百鸟衣的老奶奶，你才知道什么叫活的文化。",
+    "experiences": [
+      "矮寨大桥",
+      "苗寨",
+      "赶集"
+    ],
+    "tags": [
+      "苗疆",
+      "边城",
+      "秘境"
+    ]
+  },
+  {
+    "name": "泸沽湖",
+    "name_en": "Lugu Lake",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "水",
+    "secondary_element": "木",
+    "lat": 27.71,
+    "lng": 100.78,
+    "basis": "摩梭女儿国，高原明珠",
+    "vibe": "猪槽船划过水面不留痕迹，格姆女神山的倒影比真山还清楚。摩梭阿妈的走婚桥走了多少代人的故事，现在走的是你。",
+    "experiences": [
+      "猪槽船",
+      "里格半岛",
+      "走婚桥"
+    ],
+    "tags": [
+      "女儿国",
+      "高原湖",
+      "摩梭"
+    ]
+  },
+  {
+    "name": "香格里拉",
+    "name_en": "Shangri-La",
+    "country": "CN",
+    "region": "西南",
+    "primary_element": "土",
+    "secondary_element": "木",
+    "lat": 27.83,
+    "lng": 99.7,
+    "basis": "消失的地平线，藏传佛教圣地",
+    "vibe": "松赞林寺的金顶在晨雾中若隐若现像一个承诺，普达措的湖面上倒映着还没有名字的雪山。纳帕海的黑颈鹤冬天才来，比你准时。",
+    "experiences": [
+      "松赞林寺",
+      "普达措",
+      "独克宗古城"
+    ],
+    "tags": [
+      "香格里拉",
+      "藏传",
+      "雪山"
+    ]
+  }
 ]
